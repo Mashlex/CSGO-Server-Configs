@@ -3,5 +3,7 @@ This Git provides some configs for an extended [CSGO Egg](https://github.com/Mas
 * [Pterodactyl Project](https://pterodactyl.io/)
 * [Offical Eggs](https://github.com/parkervcp/eggs)
 * [My Pterodactyl Eggs](https://github.com/Mashlex/Pterodactyl-Eggs)
+## Server Config
+The server.cfg is the core of the server configs. It contains all the basic settings that are important.
 ## Gamemodes Server Config
 The gamemode configs are only links to the existing files. This makes it easy if these files are updated by Valve. Some configs have additional commands that may fix some errors. These are not affected by the Valve updates.
