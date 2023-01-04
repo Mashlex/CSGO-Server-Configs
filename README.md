@@ -1,3 +1,3 @@
-# CSGO Server Configs 
+# CSGO-Server-Setup
 
  
