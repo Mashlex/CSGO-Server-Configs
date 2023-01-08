@@ -15,7 +15,7 @@ This Git provides some configs for an extended [CSGO Egg](https://github.com/Mas
 
 ## Included Modes
 | Name | Plugin | Description |
-|-----------------------|------------|---------------------------------------------|
+|-----------------------|----------|---------------------------|
 | Soft Reset | Valve | This is not a real game mod. It is a quick way to reset the server without changing the map. |
 |  |  |  |
 
