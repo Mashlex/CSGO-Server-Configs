@@ -19,21 +19,21 @@ In addition, the package contains some useful plugins and configurations that ca
 | Name | Based On | Description |
 |-----------------------|----------|---------------------------|
 | Soft Reset | Valve | This is not a real game mod. It is a quick way to reset the server without changing the map. |
-| Hard Reset | Valve |  |
-| Casual | Valve |  |
-| Flying Scoutsman | Valve |  |
-| Trigger Discipline | Valve |  |
-| Guardian | Valve |  |
-| Retake | Valve |  |
-| Arms Race | Valve |  |
-| Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) |  |
-| Team Deathmatch | Valve |  |
-| Free for All | Valve |  |
-| Headshot Mode | Valve |  |
-| Arena 1v1 | [Multi 1v1 Plugin](https://github.com/splewis/csgo-multi-1v1) |  |
-| 1on1 Match | [Get5 Plugin](https://github.com/splewis/get5) |  |
-| 2on2 Match | [Get5 Plugin](https://github.com/splewis/get5) |  |
-| 5on5 Match | [Get5 Plugin](https://github.com/splewis/get5) |  |
+| Hard Reset | Valve | Work in Progress! |
+| Casual | Valve | Work in Progress! |
+| Flying Scoutsman | Valve | Work in Progress! |
+| Trigger Discipline | Valve | Work in Progress! |
+| Guardian | Valve | Work in Progress! |
+| Retake | Valve | Work in Progress!|
+| Arms Race | Valve | Work in Progress! |
+| Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) | Work in Progress! |
+| Team Deathmatch | Valve | Work in Progress! |
+| Free for All | Valve | Work in Progress! |
+| Headshot Mode | Valve | Work in Progress! |
+| Arena 1v1 | [Multi 1v1 Plugin](https://github.com/splewis/csgo-multi-1v1) | Work in Progress! |
+| 1on1 Match | [Get5 Plugin](https://github.com/splewis/get5) | Work in Progress! |
+| 2on2 Match | [Get5 Plugin](https://github.com/splewis/get5) | Work in Progress! |
+| 5on5 Match | [Get5 Plugin](https://github.com/splewis/get5) | Work in Progress! |
 
 Some plug-ins have been omitted, such as Deathmatch or Arms Race, which only ask for a little added value. This means that you are not dependent on other plug-ins.
 
