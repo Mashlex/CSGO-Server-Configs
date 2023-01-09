@@ -33,6 +33,7 @@ This Git provides some configs for an extended [CSGO Egg](https://github.com/Mas
 | 2on2 Match | [Get5 Plugin](https://github.com/splewis/get5) |  |
 | 5on5 Match | [Get5 Plugin](https://github.com/splewis/get5) |  |
 
+Some plug-ins have been omitted, such as Deathmatch or Arms Race, which only ask for a little added value. This means that you are not dependent on other plug-ins.
 
 ## Custom Commands
 | Command | Description |
