@@ -18,8 +18,8 @@ In addition, the package contains some useful plugins and configurations that ca
 ## Included Modes
 | Name | Based On | Description |
 |-----------------------|----------|---------------------------|
-| Soft Reset | Valve | This is not a real game mod. It is a quick way to reset the server without changing the map. |
-| Hard Reset | Valve | Work in Progress! |
+| Soft Reset | Valve | This is not a real game mod. It is a quick way to reset the serverconfigs without changing the map. |
+| Hard Reset | Valve | This is not a real game mod. It reload a map and reset the serverconfigs. |
 | Casual | Valve | Work in Progress! |
 | Flying Scoutsman | Valve | Work in Progress! |
 | Trigger Discipline | Valve | Work in Progress! |
