@@ -28,7 +28,7 @@ This Git provides some configs for an extended [CSGO Egg](https://github.com/Mas
 | Team Deathmatch | Valve |  |
 | Free for All | Valve |  |
 | Headshot Mode | Valve |  |
-| Arena 1v1 | [Arena Plugin](https://github.com/splewis/csgo-multi-1v1) |  |
+| Arena 1v1 | [Multi 1v1 Plugin](https://github.com/splewis/csgo-multi-1v1) |  |
 | 1on1 Match | [Get5 Plugin](https://github.com/splewis/get5) |  |
 | 2on2 Match | [Get5 Plugin](https://github.com/splewis/get5) |  |
 | 5on5 Match | [Get5 Plugin](https://github.com/splewis/get5) |  |
