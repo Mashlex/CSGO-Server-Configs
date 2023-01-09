@@ -1,5 +1,6 @@
 # CSGO-Server-Setup
 This Git provides some configs for an extended [CSGO Egg](https://github.com/Mashlex/Pterodactyl-Eggs/blob/199753a61b2bc9f04b5c4e3f6ecd1fea73615fb2/egg-counter--strike--global-offensive.json), which can be found in another Git. These files are missing from the standard CSGO server and are therefore loaded additionally.
+In addition, the package contains some useful plugins and configurations that can be copied directly to a server. Provided [Metamod](https://www.sourcemm.net/) and [Sourcemod](https://www.sourcemod.net/) are installed.
 
 ## Included Plugins/Extentions
 | Name | Description |
