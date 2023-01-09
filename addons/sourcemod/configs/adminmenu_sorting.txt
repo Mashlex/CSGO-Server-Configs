@@ -6,6 +6,12 @@
 
 "Menu"
 {
+	"Server Modes"
+	{
+		"item"		"Server Reset"
+		"item"		"Casual Mode"
+		"item"		"sm_map"
+	}
 	"PlayerCommands"
 	{
 		"item"		"sm_slay"
@@ -20,7 +26,6 @@
 		"item"		"sm_firebomb"
 		"item"		"sm_freezebomb"
 	}
-
 	"ServerCommands"
 	{
 		"item"		"sm_map"
