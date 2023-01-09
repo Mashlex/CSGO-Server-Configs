@@ -14,10 +14,25 @@ This Git provides some configs for an extended [CSGO Egg](https://github.com/Mas
 | [Practice Mode](https://github.com/splewis/csgo-practice-mode) | Practice Mode is a sourcemod plugin for helping players/teams run practices. Check out the features and command list below for a better understanding of all the tools practicemode provides. |
 
 ## Included Modes
-| Name | Plugin | Description |
+| Name | Based On | Description |
 |-----------------------|----------|---------------------------|
-| Soft Reset<img width=100/> | Valve | This is not a real game mod. It is a quick way to reset the server without changing the map. |
-|  |  |  |
+| Soft Reset | Valve | This is not a real game mod. It is a quick way to reset the server without changing the map. |
+| Hard Reset | Valve |  |
+| Casual | Valve |  |
+| Flying Scoutsman | Valve |  |
+| Trigger Discipline | Valve |  |
+| Guardian | Valve |  |
+| Retake | Valve |  |
+| Arms Race | Valve |  |
+| Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) |  |
+| Team Deathmatch | Valve |  |
+| Free for All | Valve |  |
+| Headshot Mode | Valve |  |
+| Arena 1v1 | [Arena Plugin](https://github.com/splewis/csgo-multi-1v1) |  |
+| 1on1 Match | [Get5 Plugin](https://github.com/splewis/get5) |  |
+| 2on2 Match | [Get5 Plugin](https://github.com/splewis/get5) |  |
+| 5on5 Match | [Get5 Plugin](https://github.com/splewis/get5) |  |
+
 
 ## Custom Commands
 | Command | Description |
