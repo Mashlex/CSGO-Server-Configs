@@ -22,8 +22,10 @@ This Git provides some configs for an extended [CSGO Egg](https://github.com/Mas
 ## Custom Commands
 | Command | Description |
 |----------------|------------------------------------------------|
-| Bot Count | Dahinter steht der Befehl "bot_quota", welches die Anzahl der möglichen Bots verändert. |  
-| []() |  |  
+| Bot Count | Behind this is the command "bot_quota", which changes the number of possible bots. | 
+| Bot Kick | Kick the Bot from the Server. |  
+| Bot Add | If the Bots cant join automaticly, then you can add bots. | 
+| Generated Password | Generate a random password and write it in the chat. | 
 
 ## Configs
 ### Server Config
