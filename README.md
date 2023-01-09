@@ -42,6 +42,7 @@ Some plug-ins have been omitted, such as Deathmatch or Arms Race, which only ask
 | Bot Kick | Kick the Bot from the Server. |  
 | Bot Add | If the Bots cant join automaticly, then you can add bots. | 
 | Generated Password | Generate a random password and write it in the chat. | 
+| Remove Password | This remove the password, to change the server to a public server again. | 
 
 ## Configs
 ### Server Config
