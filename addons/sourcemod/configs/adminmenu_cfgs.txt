@@ -6,26 +6,5 @@ Configs
 {
 	"cfg/gamemodes/1_server_reset_soft.cfg"			"Server Reset Soft"
 	"cfg/gamemodes/1_server_reset_hard.cfg"			"Server Reset Hard"
-	
-	"cfg/gamemodes/blank.cfg" 						"---Casual---"
-	"cfg/gamemodes/2_casual.cfg" 					"Casual Setup"
-	"cfg/gamemodes/2_flying_scoutsman.cfg" 			"Flying Scoutman"
-	"cfg/gamemodes/2_trigger_discipline.cfg"		"Trigger Discipline"
-
-	"cfg/gamemodes/3_blank.cfg" 					"---Trainig---"
-	"cfg/gamemodes/3_guardian.cfg"					"Guardian"
-	"cfg/gamemodes/3_retake.cfg" 					"Retake"
-	"cfg/gamemodes/3_arms_race.cfg"					"Arms Race"
-	"cfg/gamemodes/3_practice.cfg"					"Practice Mode" 			//Splewis Practice Mode
-
-	"cfg/gamemodes/blank.cfg"						"---Deathmatch---"
-	"cfg/gamemodes/4_team_deathmatch.cfg"			"Team Deathmatch"
-	"cfg/gamemodes/4_free_for_all.cfg"				"Free for All"
-	"cfg/gamemodes/4_headshot_mode.cfg"				"Headshot Mod"
-
-	"cfg/gamemodes/blank.cfg"						"---Competitiv---"
-	"cfg/gamemodes/5_arena.cfg"  					"1on1 Arena"				//Splewis Arena Plugin
-	"cfg/gamemodes/5_1on1.cfg"						"1on1 Duel"					//Splewis Get5 Plugin
-	"cfg/gamemodes/5_2on2.cfg"						"2on2 Wingman"				//Splewis Get5 Plugin
-	"cfg/gamemodes/5_5on5.cfg"						"5on5 Match"				//Splewis Get5 Plugin
+	"cfg/gamemodes/1_server_reset_full.cfg"			"Server Reset Full"
 }
