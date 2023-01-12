@@ -22,20 +22,20 @@ In addition, the package contains some useful plugins and configurations that ca
 | Soft Reset | Valve | This is not a real game mod. It is a quick way to reset the serverconfigs without changing the map. | *Nothing* |
 | Hard Reset | Valve | This is not a real game mod. It reload a map and reset the serverconfigs. | *Nothing* |
 | Full Reset | Valve | This is not a real game mod. It restarts the entire server. | *Nothing* |
-| Casual | Valve | *Work in Progress! Now* | *bot_quota, changelevel* |
-| Flying Scoutsman | Valve | *Work in Progress! Now* | *bot_quota, changelevel* |
-| Trigger Discipline | Valve | *Work in Progress! Now* | *bot_quota, changelevel* |
-| Guardian | Valve | *Work in Progress! | *bot_quota, changelevel* |
-| Retake | Valve | *Work in Progress!* | *bot_quota, changelevel* |
-| Arms Race | Valve | *Work in Progress! Now* | *bot_quota, changelevel* |
-| Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) | *Work in Progress!* | *bot_quota, changelevel* |
-| Team Deathmatch | Valve | *Work in Progress!* | *bot_quota, changelevel* |
-| Free for All | Valve | *Work in Progress!* | *bot_quota, changelevel* |
-| DM Headshot Mode | Valve | *Work in Progress!* | *bot_quota, changelevel* |
-| Arena 1v1 | [Multi 1v1 Plugin](https://github.com/splewis/csgo-multi-1v1) | *Work in Progress!* | *bot_quota, changelevel* |
-| 1on1 Match | [Get5 Plugin](https://github.com/splewis/get5) | *Work in Progress!* | *bot_quota, changelevel* |
-| 2on2 Match | [Get5 Plugin](https://github.com/splewis/get5) | *Work in Progress!* | *bot_quota, changelevel* |
-| 5on5 Match | [Get5 Plugin](https://github.com/splewis/get5) | *Work in Progress!* | *bot_quota, changelevel* |
+| Casual | Valve | *Work in Progress!* | *bot_quota, changelevel* |
+| Flying Scoutsman | Valve | *Work in Progress!* | *bot_quota, changelevel* |
+| Trigger Discipline | Valve | *Work in Progress!* | *bot_quota, changelevel* |
+| Guardian | Valve | *soon* | *bot_quota, changelevel* |
+| Retake | Valve | *soon* | *bot_quota, changelevel* |
+| Arms Race | Valve | *Work in Progress!* | *bot_quota, changelevel* |
+| Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) | *soon* | *bot_quota, changelevel* |
+| Team Deathmatch | Valve | *soon* | *bot_quota, changelevel* |
+| Free for All | Valve | *soon* | *bot_quota, changelevel* |
+| DM Headshot Mode | Valve | *soon* | *bot_quota, changelevel* |
+| Arena 1v1 | [Multi 1v1 Plugin](https://github.com/splewis/csgo-multi-1v1) | *soon* | *bot_quota, changelevel* |
+| 1on1 Match | [Get5 Plugin](https://github.com/splewis/get5) | *soon* | *bot_quota, changelevel* |
+| 2on2 Match | [Get5 Plugin](https://github.com/splewis/get5) | *soon* | *bot_quota, changelevel* |
+| 5on5 Match | [Get5 Plugin](https://github.com/splewis/get5) | *soon* | *bot_quota, changelevel* |
 
 Some plug-ins have been omitted, such as Deathmatch or Arms Race, which only ask for a little added value. This means that you are not dependent on other plug-ins.
 
