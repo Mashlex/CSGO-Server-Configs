@@ -6,11 +6,21 @@
 
 "Menu"
 {
-	"Server Modes"
+	"Casual Games"
 	{
-		"item"		"Server Reset"
-		"item"		"Casual Mode"
+		"item"		"Casual Match"
+		"item"		"Arms Race"
+		"item"		"Trigger Discipline"
+		"item"		"Flying Scoutsman"
+	}
+	"ServerCommands"
+	{
 		"item"		"sm_map"
+		"item"		"sm_execcfg"
+		"item"		"sm_reloadadmins"
+		"item"		"Server Reset Soft"
+		"item"		"Server Reset Hard"
+		"item"		"Server Reset Full"
 	}
 	"PlayerCommands"
 	{
@@ -26,13 +36,6 @@
 		"item"		"sm_firebomb"
 		"item"		"sm_freezebomb"
 	}
-	"ServerCommands"
-	{
-		"item"		"sm_map"
-		"item"		"sm_execcfg"
-		"item"		"sm_reloadadmins"
-	}
-
 	"VotingCommands"
 	{
 		"item"		"sm_cancelvote"

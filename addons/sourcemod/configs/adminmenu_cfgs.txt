@@ -4,7 +4,7 @@
  */
 Configs
 {
-	"cfg/gamemodes/1_server_reset_soft.cfg"			"Server Reset Soft"
-	"cfg/gamemodes/1_server_reset_hard.cfg"			"Server Reset Hard"
-	"cfg/gamemodes/1_server_reset_full.cfg"			"Server Reset Full"
+	"cfg/gamesettings/default/server_reset_soft.cfg"			"Server Reset Soft"
+	"cfg/gamesettings/default/server_reset_hard.cfg"			"Server Reset Hard"
+	"cfg/gamesettings/default/server_reset_full.cfg"			"Server Reset Full"
 }

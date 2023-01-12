@@ -8,7 +8,7 @@
 
 "Commands"
 {
-	"Casual Modes"
+	"Casual Games"
 	{
 			"Casual Match"
 			{
