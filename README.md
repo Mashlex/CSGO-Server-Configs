@@ -53,7 +53,7 @@ Some plug-ins have been omitted, such as Deathmatch or Arms Race, which only ask
 This file contains the extra gamesetting configurations with the queries for some individual commands. The game mode can be started via the admin menu and adjusted again and again without having to know anything about the source syntax. 
 ### Server Config
 The server.cfg is the core of the server configs. It contains all the basic settings that are important.
-### Gamemodes Server Configs
+### Gamemodes Configs
 The gamemode configs are only links to the existing files. This makes it easy if these files are updated by Valve. Some configs have additional commands that may fix some errors. These are not affected by the Valve updates.
 ### Gamesettings Configs
 These are the config files which can be loaded via the admin menu and which merge the functions of the plugins with the gamemodes. They are also reset again and again through this.
