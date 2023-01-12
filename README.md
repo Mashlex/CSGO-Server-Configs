@@ -49,6 +49,8 @@ Some plug-ins have been omitted, such as Deathmatch or Arms Race, which only ask
 | Remove Password | This remove the password, to change the server to a public server again. | 
 
 ## Configs
+### Adminmenu Custom
+This file contains the extra gamesetting configurations with the queries for some individual commands. The game mode can be started via the admin menu and adjusted again and again without having to know anything about the source syntax. 
 ### Server Config
 The server.cfg is the core of the server configs. It contains all the basic settings that are important.
 ### Gamemodes Server Configs
