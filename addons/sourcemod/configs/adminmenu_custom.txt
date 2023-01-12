@@ -12,7 +12,7 @@
 	{
 			"Casual Match"
 			{
-				"cmd"				"exec /cfg/gamemodes/casual/2_casual.cfg;bot_quota @1;changelevel @2"
+				"cmd"				"sm_execcfg /gamemodes/casual/2_casual.cfg;sm_futex 0.1 \"changelevel @2\";sm_futex 0.3 \"sm_execcfg /gamemodes/casual/2_casual.cfg\";sm_futex 0.4 \"bot_quota @1\";changelevel @2"
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
@@ -21,9 +21,9 @@
 				"title"				"How many Bots?"
 				"1"					"12"
 				"1."				"12"
-				"2"					"10"		
+				"2"					"10.cfg"		
 				"2."				"10"			
-				"3"					"4"				
+				"3"					"4.cfg"				
 				"3."				"4"
 				"4"					"2"
 				"4."				"2"
@@ -64,7 +64,7 @@
 			}
 			"Arms Race"
 			{
-				"cmd"				"exec /cfg/gamemodes/casual/2_arms_race.cfg;bot_quota @1;changelevel @2"
+				"cmd"				"sm_execcfg /gamemodes/casual/2_arms_race.cfg;bot_quota @1;changelevel @2"
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
@@ -104,7 +104,7 @@
 			}
 			"Trigger Discipline"
 			{
-				"cmd"				"exec /cfg/gamemodes/casual/2_trigger_discipline.cfg;bot_quota @1;changelevel @2"
+				"cmd"				"sm_execcfg /gamemodes/casual/2_trigger_discipline.cfg;bot_quota @1;changelevel @2"
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
@@ -156,7 +156,7 @@
 			}
 			"Flying Scoutsman"
 			{
-				"cmd"				"exec /cfg/gamemodes/casual/2_flying_scoutsman.cfg;bot_quota @1;changelevel @2"
+				"cmd"				"sm_execcfg /gamemodes/casual/2_flying_scoutsman.cfg;bot_quota @1;changelevel @2"
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
