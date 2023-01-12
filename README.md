@@ -17,25 +17,25 @@ In addition, the package contains some useful plugins and configurations that ca
 | [Practice Mode](https://github.com/splewis/csgo-practice-mode) | Practice Mode is a sourcemod plugin for helping players/teams run practices. Check out the features and command list below for a better understanding of all the tools practicemode provides. |
 
 ## Included Modes
-| Name | Based On | Description | Asking commands |
-|----------|----------|----------|----------|
-| Soft Reset | Valve | This is not a real game mod. It is a quick way to reset the serverconfigs without changing the map. | *Nothing* |
-| Hard Reset | Valve | This is not a real game mod. It reload a map and reset the serverconfigs. | *Nothing* |
-| Full Reset | Valve | This is not a real game mod. It restarts the entire server. | *Nothing* |
-| Casual | Valve | *Work in Progress!* | *bot_quota, changelevel* |
-| Flying Scoutsman | Valve | *Work in Progress!* | *bot_quota, changelevel* |
-| Trigger Discipline | Valve | *Work in Progress!* | *bot_quota, changelevel* |
-| Guardian | Valve | *soon* | *bot_quota, changelevel* |
-| Retake | Valve | *soon* | *bot_quota, changelevel* |
-| Arms Race | Valve | *Work in Progress!* | *bot_quota, changelevel* |
-| Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) | *soon* | *bot_quota, changelevel* |
-| Team Deathmatch | Valve | *soon* | *bot_quota, changelevel* |
-| Free for All | Valve | *soon* | *bot_quota, changelevel* |
-| DM Headshot Mode | Valve | *soon* | *bot_quota, changelevel* |
-| Arena 1v1 | [Multi 1v1 Plugin](https://github.com/splewis/csgo-multi-1v1) | *soon* | *bot_quota, changelevel* |
-| 1on1 Match | [Get5 Plugin](https://github.com/splewis/get5) | *soon* | *bot_quota, changelevel* |
-| 2on2 Match | [Get5 Plugin](https://github.com/splewis/get5) | *soon* | *bot_quota, changelevel* |
-| 5on5 Match | [Get5 Plugin](https://github.com/splewis/get5) | *soon* | *bot_quota, changelevel* |
+| Name | Based On | Description |
+|----------|----------|----------|
+| Soft Reset | Valve | This is not a real game mod. It is a quick way to reset the serverconfigs without changing the map. |
+| Hard Reset | Valve | This is not a real game mod. It reload a map and reset the serverconfigs. |
+| Full Reset | Valve | This is not a real game mod. It restarts the entire server. |
+| Casual | Valve | *Work in Progress!* |
+| Flying Scoutsman | Valve | *Work in Progress!* |
+| Trigger Discipline | Valve | *Work in Progress!* |
+| Guardian | Valve | *soon* |
+| Retake | Valve | *soon* |
+| Arms Race | Valve | *Work in Progress!* |
+| Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) | *soon* |
+| Team Deathmatch | Valve | *soon* |
+| Free for All | Valve | *soon* |
+| DM Headshot Mode | Valve | *soon* |
+| Arena 1v1 | [Multi 1v1 Plugin](https://github.com/splewis/csgo-multi-1v1) | *soon* |
+| 1on1 Match | [Get5 Plugin](https://github.com/splewis/get5) | *soon* |
+| 2on2 Match | [Get5 Plugin](https://github.com/splewis/get5) | *soon* |
+| 5on5 Match | [Get5 Plugin](https://github.com/splewis/get5) | *soon* | 
 
 Some plug-ins have been omitted, such as Deathmatch or Arms Race, which only ask for a little added value. This means that you are not dependent on other plug-ins.
 
