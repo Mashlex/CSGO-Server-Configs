@@ -6,12 +6,12 @@
 
 "Menu"
 {
-	"Casual Games"
+	"Fun Modes"
 	{
 		"item"		"Casual Match"
 		"item"		"Arms Race"
-		"item"		"Trigger Discipline"
 		"item"		"Flying Scoutsman"
+		"item"		"Trigger Discipline"
 	}
 	"ServerCommands"
 	{
