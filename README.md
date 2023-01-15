@@ -4,17 +4,17 @@ This Git provides some configs for an extended [CSGO Egg](https://github.com/Mas
 In addition, the package contains some useful plugins and configurations that can be copied directly to a server. Provided [Metamod](https://www.sourcemm.net/) and [Sourcemod](https://www.sourcemod.net/) are installed.
 
 ## Included Plugins/Extentions
-| Name | Description |
-|----------|----------|
-| [Dhooks 2](https://github.com/peace-maker/DHooks2) | A SourceMod extension to hook any game function from within a SourcePawn plugin. This fork adds support to dynamically detour any functions instead of only virtual functions. |
-| [SteamWorks](https://github.com/KyleSanderson/SteamWorks) | Exposing SteamWorks functions to SourcePawn. |
-| [Plugin Enable/Disable](https://forums.alliedmods.net/showthread.php?p=1682844) | Move plugins to and from the disabled folder by command. |
-| [Time Traveler](https://forums.alliedmods.net/showthread.php?t=134288&page=3) | Ever wanted to run a command in the future? In 10 minutes? In a hour? Now you can! Just enter the timer and the command using sm_futex and this plugin will tunnel into the future and execute your command! |
-| [Bypass Password](https://forums.alliedmods.net/showthread.php?p=2738005) | As you know, in CS:GO game, you can not set sv_password on server if there are players in game. Need to be empty server. This plugin block that check, and allow you set sv_password when ever you like. |
-| [Random Password Generation](https://forums.alliedmods.net/showthread.php?t=139990) | This is a simple plugin that generates a random password. |
-| [Get5](https://github.com/splewis/get5) | Get5 is a standalone SourceMod plugin for CS:GO servers for running matches. |
-| [Multi 1v1](https://github.com/splewis/csgo-multi-1v1) | The multi1v1 plugin sets up any number of players in 1v1-situations on specially made maps and they fight in a ladder-type system each round. The winners move up an arena, and the losers go down an arena. Players choose between specific round types (for example: "rifle", "pistol", "awp"), and the plugin automatically spawns and gives players the appropriate weapons each round start. |
-| [Practice Mode](https://github.com/splewis/csgo-practice-mode) | Practice Mode is a sourcemod plugin for helping players/teams run practices. Check out the features and command list below for a better understanding of all the tools practicemode provides. |
+| Name | Description | Version |
+|----------|----------|----------|
+| [Dhooks 2](https://github.com/peace-maker/DHooks2) | A SourceMod extension to hook any game function from within a SourcePawn plugin. This fork adds support to dynamically detour any functions instead of only virtual functions. | ? |
+| [SteamWorks](https://github.com/KyleSanderson/SteamWorks) | Exposing SteamWorks functions to SourcePawn. | ? |
+| [Plugin Enable/Disable](https://forums.alliedmods.net/showthread.php?p=1682844) | Move plugins to and from the disabled folder by command. | ? |
+| [Time Traveler](https://forums.alliedmods.net/showthread.php?t=134288&page=3) | Ever wanted to run a command in the future? In 10 minutes? In a hour? Now you can! Just enter the timer and the command using sm_futex and this plugin will tunnel into the future and execute your command! | ? |
+| [Bypass Password](https://forums.alliedmods.net/showthread.php?p=2738005) | As you know, in CS:GO game, you can not set sv_password on server if there are players in game. Need to be empty server. This plugin block that check, and allow you set sv_password when ever you like. | ? |
+| [Random Password Generation](https://forums.alliedmods.net/showthread.php?t=139990) | This is a simple plugin that generates a random password. | ? |
+| [Get5](https://github.com/splewis/get5) | Get5 is a standalone SourceMod plugin for CS:GO servers for running matches. | ? |
+| [Multi 1v1](https://github.com/splewis/csgo-multi-1v1) | The multi1v1 plugin sets up any number of players in 1v1-situations on specially made maps and they fight in a ladder-type system each round. The winners move up an arena, and the losers go down an arena. Players choose between specific round types (for example: "rifle", "pistol", "awp"), and the plugin automatically spawns and gives players the appropriate weapons each round start. | ? |
+| [Practice Mode](https://github.com/splewis/csgo-practice-mode) | Practice Mode is a sourcemod plugin for helping players/teams run practices. Check out the features and command list below for a better understanding of all the tools practicemode provides. | ? |
 
 ## Included Modes
 | Name | Based On | Description |
@@ -22,12 +22,12 @@ In addition, the package contains some useful plugins and configurations that ca
 | Soft Reset | Valve | This is not a real game mod. It is a quick way to reset the serverconfigs without changing the map. |
 | Hard Reset | Valve | This is not a real game mod. It reload a map and reset the serverconfigs. |
 | Full Reset | Valve | This is not a real game mod. It restarts the entire server. |
-| Casual | Valve | *Work in Progress!* |
-| Flying Scoutsman | Valve | *Work in Progress!* |
-| Trigger Discipline | Valve | *Work in Progress!* |
+| Casual | Valve | Like Competitive but with fewer rounds, shorter freezetime per round, no friendly fire, no team collision, free armor and free defuse kit/cutters. |
+| Flying Scoutsman | Valve | Only scouts and knives, low gravity, high precision. |
+| Trigger Discipline | Valve | Gunshots that a player does not hit an enemy with damage himself down to a minimum of 1 HP. |
 | Guardian | Valve | *soon* |
 | Retake | Valve | *soon* |
-| Arms Race | Valve | *Work in Progress!* |
+| Arms Race | Valve | The game is one perpetual round where killed players respawn at the default spawns. A weapon progression (a number of guns and their order) is defined where players win by making a specified number of kills with each of these weapons. |
 | Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) | *soon* |
 | Team Deathmatch | Valve | *soon* |
 | Free for All | Valve | *soon* |
