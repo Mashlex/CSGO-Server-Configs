@@ -6,12 +6,19 @@
 
 "Menu"
 {
-	"Fun Modes"
+	"Fun Gamemode"
 	{
 		"item"		"Casual Match"
 		"item"		"Arms Race"
 		"item"		"Flying Scoutsman"
 		"item"		"Trigger Discipline"
+	}
+	"Trainings Gamemode"
+	{
+		"item"		"Retake"
+		"item"		"Guardian"
+		"item"		"Deathmatch"
+		"item"		"Practicemode"
 	}
 	"ServerCommands"
 	{
