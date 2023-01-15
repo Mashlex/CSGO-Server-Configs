@@ -25,13 +25,12 @@ In addition, the package contains some useful plugins and configurations that ca
 | Casual | Valve | Like Competitive but with fewer rounds, shorter freezetime per round, no friendly fire, no team collision, free armor and free defuse kit/cutters. |
 | Flying Scoutsman | Valve | Only scouts and knives, low gravity, high precision. |
 | Trigger Discipline | Valve | Gunshots that a player does not hit an enemy with damage himself down to a minimum of 1 HP. |
-| Guardian | Valve | *soon* |
-| Retake | Valve | *soon* |
+| Guardian | Valve | Two human players must defend a bombsite as CT or hostages as T against rushing bots. Maps must support this mode to work as intended. |
+| Retake | Valve | Each round, 3 Terrorists spawn on a bomb site with a bomb being planted and 4 CTs spawn at fixed locations around it or on the other bomb spot. Each player can choose a loadout card at round start. |
 | Arms Race | Valve | The game is one perpetual round where killed players respawn at the default spawns. A weapon progression (a number of guns and their order) is defined where players win by making a specified number of kills with each of these weapons. |
-| Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) | *soon* |
+| Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) | Practice Mode is a sourcemod plugin for helping players/teams run practices. Check out the features and command list for a better understanding of all the tools practicemode provides. |
 | Team Deathmatch | Valve | *soon* |
 | Free for All | Valve | *soon* |
-| DM Headshot Mode | Valve | *soon* |
 | Arena 1v1 | [Multi 1v1 Plugin](https://github.com/splewis/csgo-multi-1v1) | *soon* |
 | 1on1 Match | [Get5 Plugin](https://github.com/splewis/get5) | *soon* |
 | 2on2 Match | [Get5 Plugin](https://github.com/splewis/get5) | *soon* |
