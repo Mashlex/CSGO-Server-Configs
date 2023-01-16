@@ -11,7 +11,7 @@
 		"item"		"Casual Match"
 		"item"		"Arms Race"
 		"item"		"Flying Scoutsman"
-		"item"		"Trigger Discipline"
+		"item"		"Zone Danger"
 	}
 	"Trainings Gamemode"
 	{
