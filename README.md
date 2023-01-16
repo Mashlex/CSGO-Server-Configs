@@ -9,7 +9,7 @@ In addition, the package contains some useful plugins and configurations that ca
 | [Dhooks 2](https://github.com/peace-maker/DHooks2) | A SourceMod extension to hook any game function from within a SourcePawn plugin. This fork adds support to dynamically detour any functions instead of only virtual functions. | 2.2.0 |
 | [SteamWorks](https://github.com/KyleSanderson/SteamWorks) | Exposing SteamWorks functions to SourcePawn. | 1.2.3c |
 | [Plugin Enable/Disable](https://forums.alliedmods.net/showthread.php?p=1682844) | Move plugins to and from the disabled folder by command. | 1.0.1 |
-| [Time Traveler](https://forums.alliedmods.net/showthread.php?t=134288&page=3) | Ever wanted to run a command in the future? In 10 minutes? In a hour? Now you can! Just enter the timer and the command using sm_futex and this plugin will tunnel into the future and execute your command! | 1.2.0 |
+| [Time Traveler](https://forums.alliedmods.net/showthread.php?t=134288&page=3) | Ever wanted to run a command in the future? In 10 minutes? In a hour? Now you can! Just enter the timer and the command using sm_futex and this plugin will tunnel into the future and execute your command! | 07-28-2016 YoNer |
 | [Bypass Password](https://forums.alliedmods.net/showthread.php?p=2738005) | As you know, in CS:GO game, you can not set sv_password on server if there are players in game. Need to be empty server. This plugin block that check, and allow you set sv_password when ever you like. | 02-23-2021 |
 | [Random Password Generation](https://forums.alliedmods.net/showthread.php?t=139990) | This is a simple plugin that generates a random password. | 06-15-2015 |
 | [Get5](https://github.com/splewis/get5) | Get5 is a standalone SourceMod plugin for CS:GO servers for running matches. | 0.12.0 |
@@ -22,15 +22,14 @@ In addition, the package contains some useful plugins and configurations that ca
 | Soft Reset | Valve | This is not a real game mod. It is a quick way to reset the serverconfigs without changing the map. |
 | Hard Reset | Valve | This is not a real game mod. It reload a map and reset the serverconfigs. |
 | Full Reset | Valve | This is not a real game mod. It restarts the entire server. |
-| Casual | Valve | Like Competitive but with fewer rounds, shorter freezetime per round, no friendly fire, no team collision, free armor and free defuse kit/cutters. |
-| Flying Scoutsman | Valve | Only scouts and knives, low gravity, high precision. |
-| Trigger Discipline | Valve | Gunshots that a player does not hit an enemy with damage himself down to a minimum of 1 HP. |
-| Guardian | Valve | Two human players must defend a bombsite as CT or hostages as T against rushing bots. Maps must support this mode to work as intended. |
-| Retake | Valve | Each round, 3 Terrorists spawn on a bomb site with a bomb being planted and 4 CTs spawn at fixed locations around it or on the other bomb spot. Each player can choose a loadout card at round start. |
-| Arms Race | Valve | The game is one perpetual round where killed players respawn at the default spawns. A weapon progression (a number of guns and their order) is defined where players win by making a specified number of kills with each of these weapons. |
-| Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) | Practice Mode is a sourcemod plugin for helping players/teams run practices. Check out the features and command list for a better understanding of all the tools practicemode provides. |
-| Team Deathmatch | Valve | *soon* |
-| Free for All | Valve | *soon* |
+| Casual | [ValVe](https://developer.valvesoftware.com/wiki/Creating_a_Classic_Counter-Strike_Map) | Used as [Normal](https://developer.valvesoftware.com/wiki/Creating_a_Classic_Counter-Strike_Map) mode: Like Competitive but with fewer rounds, shorter freezetime per round, no friendly fire, no team collision, free armor and free defuse kit/cutters. Used as [Trigger Discipline](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes#trigger_Discipline) mode: Gunshots that a player does not hit an enemy with damage himself down to a minimum of 1 HP. |
+| Flying Scoutsman | [ValVe](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes#Flying_Scoutsman) | Only scouts and knives, low gravity, high precision. |
+| Guardian | [ValVe](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Guardian) | Two human players must defend a bombsite as CT or hostages as T against rushing bots. Maps must support this mode to work as intended. |
+| Retake | [ValVe](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes#Retakes) | Each round, 3 Terrorists spawn on a bomb site with a bomb being planted and 4 CTs spawn at fixed locations around it or on the other bomb spot. Each player can choose a loadout card at round start. |
+| Arms Race | [ValVe](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Arms_Race) | The game is one perpetual round where killed players respawn at the default spawns. A weapon progression (a number of guns and their order) is defined where players win by making a specified number of kills with each of these weapons. |
+| Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) | Practice Mode is a sourcemod plugin for helping players/teams run practices. Check out the features and Practicemode | [command](https://github.com/splewis/csgo-practice-mode) list for a better understanding of all the tools practicemode provides. |
+| Team Deathmatch | [ValVe](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Deathmatch) | Like Armsrace but with free weapon choice and respawns across the map. Kills grant points, depending on the weapon type and if it is currently the bonus weapon. A player wins by scoring the highest after the round's time limit. Only opponents of the other team can be killed. In addition, this mode is also available as a headshot only mode. |
+| Free for All | [ValVe](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Deathmatch) | This mode is like the Team Deathmatch mode except that everyone, the opponents as well as your own team, are cleared for shooting. And of course this is also available as a headshot only mode. |
 | Arena 1v1 | [Multi 1v1 Plugin](https://github.com/splewis/csgo-multi-1v1) | *soon* |
 | 1on1 Match | [Get5 Plugin](https://github.com/splewis/get5) | *soon* |
 | 2on2 Match | [Get5 Plugin](https://github.com/splewis/get5) | *soon* |
