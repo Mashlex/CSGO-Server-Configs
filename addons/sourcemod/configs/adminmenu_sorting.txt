@@ -17,7 +17,7 @@
 	{
 		"item"		"Retake"
 		"item"		"Guardian"
-		"item"		"Deathmatch"
+		"item"		"Death Match"
 		"item"		"Practicemode"
 	}
 	"ServerCommands"

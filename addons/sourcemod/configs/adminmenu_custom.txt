@@ -183,15 +183,15 @@
 				"7."				"1"
 				}
 			}
-			"Deathmatch"
+			"Death Match"
 			{
-				"cmd"				"sm_execcfg /gamesettings/training/@1@2;sm_execcfg /gamesettings/default/map_loading.cfg;sm_futex 0.03 \"changelevel @3\";sm_futex 0.3 \"sm_execcfg /gamesettings/training/@1@2\";sm_futex 0.32 \"bot_quota @4\""
+				"cmd"				"sm_execcfg /gamesettings/training/@1@2; sm_execcfg /gamesettings/default/map_loading.cfg; sm_futex 0.03 \"changelevel @3\"; sm_futex 0.031 \"mp_roundtime @4\"; sm_futex 0.032 \"bot_quota @5\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
 				{
 				"type" 				"list"
-				"title"				"Which Deathmatch Mode?"
+				"title"				"Which Deathmatch Mode"
 				"1"					"ffa_"
 				"1."				"Free for All"
 				"2"					"tm_"
@@ -200,22 +200,35 @@
 				"2"
 				{
 				"type" 				"list"
-				"title"				"With or Without Headshotmode?"
+				"title"				"Damage Mode"
 				"1"					"normal.cfg"
-				"1."				"Without!"
+				"1."				"Full Damage"
 				"2"					"headshot.cfg"
-				"2."				"With!"
+				"2."				"Only Headshot"
 				}
 				"3"
 				{
-				"title"		"Which Map should be loaded?"
-				"type"		"mapcycle"
-				"path"		"/cfg/mappools/duty_maps.ini"
+				"title"				"Which Map"
+				"type"				"mapcycle"
+				"path"				"/cfg/mappools/duty_maps.ini"
 				}
 				"4"
 				{
 				"type" 				"list"
-				"title"				"How many Bots?"
+				"title"				"Roundtime"
+				"1"					"5"
+				"1."				"5"
+				"2"					"10"
+				"2."				"10"
+				"3"					"15"		
+				"3."				"15"
+				"4"					"20"
+				"4."				"20"
+				}
+				"5"
+				{
+				"type" 				"list"
+				"title"				"Bot Count"
 				"1"					"0"
 				"1."				"No Bots"
 				"2"					"12"
@@ -241,9 +254,9 @@
 				"execute"			"server"
 				"1"
 				{
-				"title"		"Which Map should be loaded?"
-				"type"		"mapcycle"
-				"path"		"/cfg/mappools/duty_maps.ini"
+				"title"				"Which Map should be loaded?"
+				"type"				"mapcycle"
+				"path"				"/cfg/mappools/duty_maps.ini"
 				}
 			}
 	}
