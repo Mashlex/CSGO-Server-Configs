@@ -42,7 +42,7 @@ These plugins improve or enable the game modes.
 
 Some plug-ins have been omitted, such as Deathmatch or Arms Race, which only ask for a little added value. This means that you are not dependent on other plug-ins.
 
-## Custom Commands -*soon*-
+## Custom Commands - *soon* -
 | Command | Description |
 |----------|----------|
 | Bot Count | Behind this is the command "bot_quota", which changes the number of possible bots. | 
