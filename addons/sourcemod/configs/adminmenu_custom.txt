@@ -5,6 +5,12 @@
 //
 // Note: This file must be in Valve KeyValues format (no multiline comments)
 //
+// Timings
+// --------
+// Mapchange 0.08 = 5s
+// Config Reload 0.33 = 20s
+// Manuel Cvars 0.42 = 25s
+// Says 0.3 = 18s
 
 "Commands"
 {
@@ -12,7 +18,7 @@
 	{
 			"Casual Match"
 			{
-				"cmd"				"sm_execcfg /gamesettings/funmodes/@1;sm_execcfg /gamesettings/default/map_loading.cfg;sm_futex 0.03 \"changelevel @2\";sm_futex 0.3 \"sm_execcfg /gamesettings/funmodes/@1\";sm_futex 0.32 \"bot_quota @3\""
+				"cmd"				"sm_execcfg /gamesettings/funmodes/@1;sm_futex 0.08 \"changelevel @2\";sm_futex 0.42 \"bot_quota @3\";sm_futex 0.33 \"sm_execcfg /gamesettings/funmodes/@1\"" 
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
@@ -54,7 +60,7 @@
 			}
 			"Arms Race"
 			{
-				"cmd"				"sm_execcfg /gamesettings/funmodes/arms_race.cfg;sm_execcfg /gamesettings/default/map_loading.cfg;sm_futex 0.03 \"changelevel @1\";sm_futex 0.3 \"sm_execcfg /gamesettings/funmodes/arms_race.cfg\";sm_futex 0.32 \"bot_quota @2\""
+				"cmd"				"sm_execcfg /gamesettings/funmodes/arms_race.cfg;sm_futex 0.08 \"changelevel @1\";sm_futex 0.42 \"bot_quota @2\";sm_futex 0.33 \"sm_execcfg /gamesettings/funmodes/arms_race.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
@@ -87,7 +93,7 @@
 			}
 			"Flying Scoutsman"
 			{
-				"cmd"				"sm_execcfg /gamesettings/funmodes/flying_scoutsman.cfg;sm_execcfg /gamesettings/default/map_loading.cfg;sm_futex 0.03 \"changelevel @1\";sm_futex 0.3 \"sm_execcfg /gamesettings/funmodes/flying_scoutsman.cfg\";sm_futex 0.32 \"bot_quota @2\""
+				"cmd"				"sm_execcfg /gamesettings/funmodes/flying_scoutsman.cfg;sm_futex 0.08 \"changelevel @1\";sm_futex 0.42 \"bot_quota @2\";sm_futex 0.33 \"sm_execcfg /gamesettings/funmodes/flying_scoutsman.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
@@ -123,7 +129,7 @@
 	{
 			"Retake"
 			{
-				"cmd"				"sm_execcfg /gamesettings/training/retake.cfg;sm_execcfg /gamesettings/default/map_loading.cfg;sm_futex 0.03 \"changelevel @1\";sm_futex 0.3 \"sm_execcfg /gamesettings/training/retake.cfg\";sm_futex 0.32 \"bot_quota @2\""
+				"cmd"				"sm_execcfg /gamesettings/training/retake.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.29 \"bot_quota @2\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/retake.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
@@ -154,7 +160,7 @@
 			}
 			"Guardian"
 			{
-				"cmd"				"sm_execcfg /gamesettings/training/guardian.cfg;sm_execcfg /gamesettings/default/map_loading.cfg;sm_futex 0.03 \"changelevel @1\";sm_futex 0.3 \"sm_execcfg /gamesettings/training/guardian.cfg\";sm_futex 0.32 \"bot_quota @2\""
+				"cmd"				"sm_execcfg /gamesettings/training/guardian.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.29 \"bot_quota @2\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/guardian.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
@@ -171,39 +177,47 @@
 				"1."				"No Bots"
 				"2"					"10"		
 				"2."				"10"
-				"3"					"8"
-				"3."				"8"
-				"4"					"6"
-				"4."				"6"	
-				"5"					"4"		
-				"5."				"4"
-				"6"					"2"
-				"6."				"2"
-				"7"					"1"
-				"7."				"1"
+				"3"					"9"
+				"3."				"9"
+				"4"					"8"
+				"4."				"8"	
+				"5"					"7"		
+				"5."				"7"
+				"6"					"6"
+				"6."				"6"
+				"7"					"5"
+				"7."				"5"
+				"8"					"4"
+				"8."				"4"
+				"9"					"3"
+				"9."				"3"
+				"10"				"2"
+				"10."				"2"
+				"11"				"1"
+				"11."				"1"
 				}
 			}
 			"Death Match"
 			{
-				"cmd"				"sm_execcfg /gamesettings/training/@1@2; sm_execcfg /gamesettings/default/map_loading.cfg; sm_futex 0.03 \"changelevel @3\"; sm_futex 0.031 \"mp_roundtime @4\"; sm_futex 0.032 \"bot_quota @5\""
+				"cmd"				"sm_execcfg /gamesettings/training/@1_@2.cfg;sm_futex 0.05 \"changelevel @3\";sm_futex 0.29 \"mp_roundtime @4\"; sm_futex 0.29 \"bot_quota @5\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/@1_@2.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
 				{
 				"type" 				"list"
 				"title"				"Which Deathmatch Mode"
-				"1"					"ffa_"
+				"1"					"ffa"
 				"1."				"Free for All"
-				"2"					"tm_"
+				"2"					"tm"
 				"2."				"Team Deathmatch"
 				}
 				"2"
 				{
 				"type" 				"list"
 				"title"				"Damage Mode"
-				"1"					"normal.cfg"
+				"1"					"normal"
 				"1."				"Full Damage"
-				"2"					"headshot.cfg"
+				"2"					"headshot"
 				"2."				"Only Headshot"
 				}
 				"3"
@@ -249,7 +263,7 @@
 			}
 			"Practicemode"
 			{
-				"cmd"				"sm_execcfg /gamesettings/training/practice.cfg;sm_execcfg /gamesettings/default/map_loading.cfg;sm_futex 0.03 \"changelevel @1\";sm_futex 0.3 \"sm_execcfg /gamesettings/training/practice.cfg\""
+				"cmd"				"sm_execcfg /gamesettings/training/practice.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/practice.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
