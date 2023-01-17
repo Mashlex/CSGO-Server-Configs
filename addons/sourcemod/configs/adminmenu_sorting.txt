@@ -6,14 +6,14 @@
 
 "Menu"
 {
-	"Fun Gamemode"
+	"Fun Modes"
 	{
 		"item"		"Casual Match"
 		"item"		"Arms Race"
 		"item"		"Flying Scoutsman"
-		"item"		"Zone Danger"
+		"item"		"Danger Zone"
 	}
-	"Trainings Gamemode"
+	"Trainings Modes"
 	{
 		"item"		"Retake"
 		"item"		"Guardian"
