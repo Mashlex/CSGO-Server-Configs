@@ -14,7 +14,7 @@
 
 "Commands"
 {
-	"Fun Gamemode"
+	"Fun Modes"
 	{
 			"Casual Match"
 			{
@@ -124,8 +124,59 @@
 				"8."				"1"
 				}
 			}
+			"Danger Zone"
+			{
+				"cmd"				"sm_execcfg /gamesettings/funmodes/danger_zone.cfg;sm_futex 0.08 \"changelevel @1\";sm_futex 0.42 \"mp_warmuptime_all_players_connected	@2\";sm_futex 0.33 \"sm_execcfg /gamesettings/funmodes/danger_zone.cfg\""
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"title"		"Which Map should be loaded?"
+				"type"		"mapcycle"
+				"path"		"/cfg/mappools/danger_zone_maps.ini"
+				}
+				"2"
+				{
+				"type" 				"list"
+				"title"				"How many Players (max. 16)"
+				"1"					"1"
+				"1."				"1 Only for Tests"
+				"2"					"2"
+				"2."				"2"
+				"3"					"3"		
+				"3."				"3"
+				"4"					"4"
+				"4."				"4"
+				"5"					"5"
+				"5."				"5"	
+				"6"					"6"		
+				"6."				"6"
+				"7"					"7"
+				"7."				"7"
+				"8"					"8"
+				"8."				"8"
+				"9"					"9"
+				"9."				"9"
+				"10"				"10"
+				"10."				"10"
+				"11"				"11"
+				"11."				"11"
+				"12"				"12"
+				"12."				"12"
+				"13"				"13"
+				"13."				"13"
+				"14"				"14"
+				"14."				"14"
+				"15"				"15"
+				"15."				"15"
+				"16"				"16"
+				"16."				"16"
+
+				"
+				}
+			}
 	}
-	"Trainings Gamemode"
+	"Trainings Modes"
 	{
 			"Retake"
 			{
