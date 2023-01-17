@@ -124,7 +124,7 @@
 				"8."				"1"
 				}
 			}
-			"Danger Zone"
+			"Single Danger Zone"
 			{
 				"cmd"				"sm_execcfg /gamesettings/funmodes/danger_zone.cfg;sm_futex 0.08 \"changelevel @1\";sm_futex 0.42 \"mp_warmuptime_all_players_connected	@2\";sm_futex 0.33 \"sm_execcfg /gamesettings/funmodes/danger_zone.cfg\""
 				"admin"				"sm_ban"
