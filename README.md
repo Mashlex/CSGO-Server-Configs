@@ -23,8 +23,8 @@ These plugins improve or enable different game modes. If you need help using the
 ## Included Modes
 | Name | Based On | Description |
 |----------|----------|----------|
-
 ##Fun Mode
+|----------|----------|----------|
 | Casual | [Valve](https://developer.valvesoftware.com/wiki/Creating_a_Classic_Counter-Strike_Map) | Used as [Normal](https://developer.valvesoftware.com/wiki/Creating_a_Classic_Counter-Strike_Map) mode: Like Competitive but with fewer rounds, shorter freezetime per round, no friendly fire, no team collision, free armor and free defuse kit/cutters. Used as [Trigger Discipline](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes#trigger_Discipline) mode: Gunshots that a player does not hit an enemy with damage himself down to a minimum of 1 HP. |
 | Arms Race | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Arms_Race) | The game is one perpetual round where killed players respawn at the default spawns. A weapon progression (a number of guns and their order) is defined where players win by making a specified number of kills with each of these weapons. |
 | Demolition | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Demolition) | A mixture of Casual with Armsrace. Best of 20 rounds. Each player is given a fixed weapon for each round, depending on his individual progress. Each player can progress one gun per round by making at least one kill. |
