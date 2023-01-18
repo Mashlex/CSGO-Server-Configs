@@ -469,7 +469,7 @@
 			}
 	}
 
-	"Setup commands"
+	"Server Commands"
 	{
 			"Bot Count"
 			{
@@ -617,6 +617,66 @@
 				}
 			}
 			"Remove Password"
+			{
+				"cmd"				"sm_execcfg /gamesettings/training/practice.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/practice.cfg\""
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"title"				"Which Map should be loaded?"
+				"type"				"mapcycle"
+				"path"				"/cfg/mappools/duty_maps.ini"
+				}
+			}
+			"Kick Player"
+			{
+				"cmd"				"sm_execcfg /gamesettings/training/practice.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/practice.cfg\""
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"title"				"Which Map should be loaded?"
+				"type"				"mapcycle"
+				"path"				"/cfg/mappools/duty_maps.ini"
+				}
+			}
+			"Ban Player"
+			{
+				"cmd"				"sm_execcfg /gamesettings/training/practice.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/practice.cfg\""
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"title"				"Which Map should be loaded?"
+				"type"				"mapcycle"
+				"path"				"/cfg/mappools/duty_maps.ini"
+				}
+			}
+			"Map Change"
+			{
+				"cmd"				"sm_execcfg /gamesettings/training/practice.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/practice.cfg\""
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"title"				"Which Map should be loaded?"
+				"type"				"mapcycle"
+				"path"				"/cfg/mappools/duty_maps.ini"
+				}
+			}
+			"Map Vote"
+			{
+				"cmd"				"sm_execcfg /gamesettings/training/practice.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/practice.cfg\""
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"title"				"Which Map should be loaded?"
+				"type"				"mapcycle"
+				"path"				"/cfg/mappools/duty_maps.ini"
+				}
+			}
+			"Server Reset"
 			{
 				"cmd"				"sm_execcfg /gamesettings/training/practice.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/practice.cfg\""
 				"admin"				"sm_ban"
