@@ -29,6 +29,7 @@
 		"item"		"Match 5on5 Bo1"
 		"item"		"Match 5on5 Bo3"
 	}
+
 	"ServerCommands"
 	{
 		"item"		"sm_map"
@@ -37,6 +38,7 @@
 		"item"		"Server Reset Soft"
 		"item"		"Server Reset Hard"
 		"item"		"Server Reset Full"
+		"item"		"Setup commands"
 	}
 	"PlayerCommands"
 	{
