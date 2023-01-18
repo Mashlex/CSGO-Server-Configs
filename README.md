@@ -18,7 +18,7 @@ In addition, the package contains some useful plugins and configurations that ca
 | [Multi 1v1](https://github.com/splewis/csgo-multi-1v1) | The multi1v1 plugin sets up any number of players in 1v1-situations on specially made maps and they fight in a ladder-type system each round. The winners move up an arena, and the losers go down an arena. Players choose between specific round types (for example: "rifle", "pistol", "awp"), and the plugin automatically spawns and gives players the appropriate weapons each round start. | 1.1.10 |
 | [Practice Mode](https://github.com/splewis/csgo-practice-mode) | Practice Mode is a sourcemod plugin for helping players/teams run practices. Check out the features and command list below for a better understanding of all the tools practicemode provides. | 1.3.4 |
 
-These plugins improve or enable the game modes. 
+These plugins improve or enable the game modes. Do you need help for the use if the plugins. For Details go to the site of the plugins, or for a fast Guide go to the [Wiki](https://github.com/Mashlex/CSGO-Server-Setup.wiki.git), where everything important is quickly collected.
 
 ## Included Modes
 | Name | Based On | Description |
