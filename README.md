@@ -50,6 +50,10 @@ Some plug-ins have been omitted, such as Deathmatch or Arms Race, which only ask
 | Bot Add | If the Bots cant join automaticly, then you can add bots. | 
 | Generated Password | Generate a random server password and write it in the chat. | 
 | Remove Password | This remove the password, to change the server to a public server again. | 
+| Kick Player || 
+| Ban Player ||
+| Map Change ||
+| Map Vote ||
 
 ## Configs
 ### Adminmenu Custom
@@ -62,3 +66,5 @@ The gamemode configs are only links to the existing files. This makes it easy if
 These are the config files which can be loaded via the admin menu and which merge the functions of the plugins with the gamemodes. They are also reset again and again through this.
 ### Mappool INC
 These are mappools, very close to the default pools. But they can be easily adapted as desired.
+### Adminmenu
+The standard "Adminmenu.smx" is edited. The menu items that are normally present have been removed and inserted as required.
