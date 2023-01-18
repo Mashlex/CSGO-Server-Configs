@@ -42,20 +42,18 @@
 				"title"				"How many Bots?"
 				"1"					"0"
 				"1."				"No Bots"
-				"2"					"12"
-				"2."				"12"
-				"3"					"10"		
-				"3."				"10"
-				"4"					"8"
-				"4."				"8"
-				"5"					"6"
-				"5."				"6"	
-				"6"					"4"		
-				"6."				"4"
-				"7"					"2"
-				"7."				"2"
-				"8"					"1"
-				"8."				"1"
+				"2"					"10"		
+				"2."				"10"
+				"3"					"8"
+				"3."				"8"
+				"4"					"6"
+				"4."				"6"	
+				"5"					"4"		
+				"5."				"4"
+				"6"					"2"
+				"6."				"2"
+				"7"					"1"
+				"7."				"1"
 				}
 			}
 			"Arms Race"
@@ -243,6 +241,52 @@
 				"11."				"1"
 				}
 			}
+			"Aimmaps"
+			{
+				"cmd"				"sm_execcfg /gamesettings/training/aimmaps.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.29 \"mp_roundtime @2\"; sm_futex 0.29 \"bot_quota @3\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/aimmaps.cfg\""
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"title"				"Which Map should be loaded?"
+				"type"				"mapcycle"
+				"path"				"/cfg/mappools/aim_maps.ini"
+				}
+				"2"
+				{
+				"type" 				"list"
+				"title"				"How long is the Roundtime?"
+				"1"					"5"
+				"1."				"5"
+				"2"					"10"
+				"2."				"10"
+				"3"					"15"		
+				"3."				"15"
+				"4"					"20"
+				"4."				"20"
+				}
+				"3"
+				{
+				"type" 				"list"
+				"title"				"How many Bots?"
+				"1"					"0"
+				"1."				"No Bots"
+				"2"					"12"
+				"2."				"12"
+				"3"					"10"		
+				"3."				"10"
+				"4"					"8"
+				"4."				"8"
+				"5"					"6"
+				"5."				"6"	
+				"6"					"4"		
+				"6."				"4"
+				"7"					"2"
+				"7."				"2"
+				"8"					"1"
+				"8."				"1"
+				}
+			}
 			"Death Match"
 			{
 				"cmd"				"sm_execcfg /gamesettings/training/@1_@2.cfg;sm_futex 0.05 \"changelevel @3\";sm_futex 0.29 \"mp_roundtime @4\"; sm_futex 0.29 \"bot_quota @5\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/@1_@2.cfg\""
@@ -320,7 +364,7 @@
 			}
 	}
 
-	"Competitive"
+	"Competitive Modes"
 	{
 			"Aim 1on1"
 			{
@@ -469,7 +513,7 @@
 			}
 	}
 
-	"Server Commands"
+	"Server Setup"
 	{
 			"Bot Count"
 			{

@@ -6,7 +6,7 @@
 
 "Menu"
 {
-	"Fun Mode"
+	"Fun Modes"
 	{
 		"item"		"Casual Match"
 		"item"		"Arms Race"
@@ -14,14 +14,17 @@
 		"item"		"Flying Scoutsman"
 		"item"		"Danger Zone"
 	}
-	"Trainings Mode"
+	
+	"Trainings Modes"
 	{
 		"item"		"Retake"
 		"item"		"Guardian"
+		"item"		"Aimmaps"
 		"item"		"Death Match"
 		"item"		"Practicemode"
 	}
-	"Competitive Mode"
+
+	"Competitive Modes"
 	{
 		"item"		"Aim 1on1"
 		"item"		"Arena 1on1"
@@ -30,7 +33,7 @@
 		"item"		"Match 5on5 Bo3"
 	}
 
-	"Server Commands"
+	"Server Setup"
 	{
 		"item"		"sm_map"
 		"item"		"sm_execcfg"
@@ -38,7 +41,7 @@
 		"item"		"Server Reset Soft"
 		"item"		"Server Reset Hard"
 		"item"		"Server Reset Full"
-		"item"		"Setup commands"
 	}
+
 }
 
