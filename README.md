@@ -29,7 +29,7 @@ These plugins improve or enable different game modes. If you need help using the
 | Demolition | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Demolition) | A mixture of Casual with Armsrace. Best of 20 rounds. Each player is given a fixed weapon for each round, depending on his individual progress. Each player can progress one gun per round by making at least one kill. |
 | Flying Scoutsman | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes#Flying_Scoutsman) | Only scouts and knives, low gravity, high precision. |
 | Danger Zone | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Danger_Zone) | A Battle Royale mode for big maps where players win by being the last man (or team) standing. Maps must be designed for this mode to work as intended. |
-| Trainings Mode ||
+| ##Trainings Mode ||
 | Retake | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes#Retakes) | Each round, 3 Terrorists spawn on a bomb site with a bomb being planted and 4 CTs spawn at fixed locations around it or on the other bomb spot. Each player can choose a loadout card at round start. |
 | Guardian | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Guardian) | Two human players must defend a bombsite as CT or hostages as T against rushing bots. Maps must support this mode to work as intended. |
 | Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) | Practice Mode is a sourcemod plugin for helping players/teams run practices. Check out the features and Practicemode | [command](https://github.com/splewis/csgo-practice-mode) list for a better understanding of all the tools practicemode provides. |
