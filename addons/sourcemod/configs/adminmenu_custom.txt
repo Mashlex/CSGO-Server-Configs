@@ -91,6 +91,39 @@
 				"8."				"1"
 				}
 			}
+			"Demolition"
+			{
+				"cmd"				"sm_execcfg /gamesettings/funmodes/demolition.cfg;sm_futex 0.08 \"changelevel @1\";sm_futex 0.42 \"bot_quota @2\";sm_futex 0.33 \"sm_execcfg /gamesettings/funmodes/demolition.cfg\""
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"title"		"Which Map should be loaded?"
+				"type"		"mapcycle"
+				"path"		"/cfg/mappools/demolition_maps.ini"
+				}
+				"2"
+				{
+				"type" 				"list"
+				"title"				"How many Bots?"
+				"1"					"0"
+				"1."				"No Bots"
+				"2"					"12"
+				"2."				"12"
+				"3"					"10"		
+				"3."				"10"
+				"4"					"8"
+				"4."				"8"
+				"5"					"6"
+				"5."				"6"	
+				"6"					"4"		
+				"6."				"4"
+				"7"					"2"
+				"7."				"2"
+				"8"					"1"
+				"8."				"1"
+				}
+			}
 			"Flying Scoutsman"
 			{
 				"cmd"				"sm_execcfg /gamesettings/funmodes/flying_scoutsman.cfg;sm_futex 0.08 \"changelevel @1\";sm_futex 0.42 \"bot_quota @2\";sm_futex 0.33 \"sm_execcfg /gamesettings/funmodes/flying_scoutsman.cfg\""
@@ -126,7 +159,7 @@
 			}
 			"Single Danger Zone"
 			{
-				"cmd"				"sm_execcfg /gamesettings/funmodes/danger_zone.cfg;sm_futex 0.08 \"changelevel @1\";sm_futex 0.42 \"mp_warmuptime_all_players_connected @2\""
+				"cmd"				"sm_execcfg /gamesettings/funmodes/danger_zone.cfg;sm_futex 0.08 \"changelevel @1\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
@@ -134,43 +167,6 @@
 				"title"		"Which Map should be loaded?"
 				"type"		"mapcycle"
 				"path"		"/cfg/mappools/danger_zone_maps.ini"
-				}
-				"2"
-				{
-				"type" 				"list"
-				"title"				"How many Players? (max. 16)"
-				"1"					"1"
-				"1."				"1 Only for Tests"
-				"2"					"2"
-				"2."				"2"
-				"3"					"3"		
-				"3."				"3"
-				"4"					"4"
-				"4."				"4"
-				"5"					"5"
-				"5."				"5"	
-				"6"					"6"		
-				"6."				"6"
-				"7"					"7"
-				"7."				"7"
-				"8"					"8"
-				"8."				"8"
-				"9"					"9"
-				"9."				"9"
-				"10"				"10"
-				"10."				"10"
-				"11"				"11"
-				"11."				"11"
-				"12"				"12"
-				"12."				"12"
-				"13"				"13"
-				"13."				"13"
-				"14"				"14"
-				"14."				"14"
-				"15"				"15"
-				"15."				"15"
-				"16"				"16"
-				"16."				"16"
 				}
 			}
 	}
@@ -311,6 +307,167 @@
 				}
 			}
 			"Practicemode"
+			{
+				"cmd"				"sm_execcfg /gamesettings/training/practice.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/practice.cfg\""
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"title"				"Which Map should be loaded?"
+				"type"				"mapcycle"
+				"path"				"/cfg/mappools/duty_maps.ini"
+				}
+			}
+	}
+
+	"Competitive"
+	{
+			"Aim 1on1"
+			{
+				"cmd"				"sm_execcfg /gamesettings/training/retake.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.29 \"bot_quota @2\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/retake.cfg\""
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"title"		"Which Map should be loaded?"
+				"type"		"mapcycle"
+				"path"		"/cfg/mappools/retake_maps.ini"
+				}
+				"2"
+				{
+				"type" 				"list"
+				"title"				"How many Bots?"
+				"1"					"0"
+				"1."				"No Bots"
+				"2"					"10"		
+				"2."				"10"
+				"3"					"8"
+				"3."				"8"
+				"4"					"6"
+				"4."				"6"	
+				"5"					"4"		
+				"5."				"4"
+				"6"					"2"
+				"6."				"2"
+				"7"					"1"
+				"7."				"1"
+				}
+			}
+			"Arena 1on1"
+			{
+				"cmd"				"sm_execcfg /gamesettings/training/guardian.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.29 \"bot_quota @2\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/guardian.cfg\""
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"title"		"Which Map should be loaded?"
+				"type"		"mapcycle"
+				"path"		"/cfg/mappools/guardian_maps.ini"
+				}
+				"2"
+				{
+				"type" 				"list"
+				"title"				"How many Bots?"
+				"1"					"0"
+				"1."				"No Bots"
+				"2"					"10"		
+				"2."				"10"
+				"3"					"9"
+				"3."				"9"
+				"4"					"8"
+				"4."				"8"	
+				"5"					"7"		
+				"5."				"7"
+				"6"					"6"
+				"6."				"6"
+				"7"					"5"
+				"7."				"5"
+				"8"					"4"
+				"8."				"4"
+				"9"					"3"
+				"9."				"3"
+				"10"				"2"
+				"10."				"2"
+				"11"				"1"
+				"11."				"1"
+				}
+			}
+			"Wingman 2on2"
+			{
+				"cmd"				"sm_execcfg /gamesettings/training/@1_@2.cfg;sm_futex 0.05 \"changelevel @3\";sm_futex 0.29 \"mp_roundtime @4\"; sm_futex 0.29 \"bot_quota @5\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/@1_@2.cfg\""
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"type" 				"list"
+				"title"				"Which Deathmatch Mode?"
+				"1"					"ffa"
+				"1."				"Free for All"
+				"2"					"tm"
+				"2."				"Team Deathmatch"
+				}
+				"2"
+				{
+				"type" 				"Which Damage Mode?"
+				"1"					"normal"
+				"1."				"Full Damage"
+				"2"					"headshot"
+				"2."				"Only Headshot"
+				}
+				"3"
+				{
+				"title"				"Which Map should be loaded?"
+				"type"				"mapcycle"
+				"path"				"/cfg/mappools/duty_maps.ini"
+				}
+				"4"
+				{
+				"type" 				"list"
+				"title"				"How long is the Roundtime?"
+				"1"					"5"
+				"1."				"5"
+				"2"					"10"
+				"2."				"10"
+				"3"					"15"		
+				"3."				"15"
+				"4"					"20"
+				"4."				"20"
+				}
+				"5"
+				{
+				"type" 				"list"
+				"title"				"How many Bots?"
+				"1"					"0"
+				"1."				"No Bots"
+				"2"					"12"
+				"2."				"12"
+				"3"					"10"		
+				"3."				"10"
+				"4"					"8"
+				"4."				"8"
+				"5"					"6"
+				"5."				"6"	
+				"6"					"4"		
+				"6."				"4"
+				"7"					"2"
+				"7."				"2"
+				"8"					"1"
+				"8."				"1"
+				}
+			}
+			"Match 5on5 Bo1"
+			{
+				"cmd"				"sm_execcfg /gamesettings/training/practice.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/practice.cfg\""
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"title"				"Which Map should be loaded?"
+				"type"				"mapcycle"
+				"path"				"/cfg/mappools/duty_maps.ini"
+				}
+			}
+			"Match 5on5 Bo3"
 			{
 				"cmd"				"sm_execcfg /gamesettings/training/practice.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/practice.cfg\""
 				"admin"				"sm_ban"

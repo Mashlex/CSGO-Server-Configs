@@ -10,6 +10,7 @@
 	{
 		"item"		"Casual Match"
 		"item"		"Arms Race"
+		"item"		"Demoliltion"
 		"item"		"Flying Scoutsman"
 		"item"		"Danger Zone"
 	}
@@ -19,6 +20,14 @@
 		"item"		"Guardian"
 		"item"		"Death Match"
 		"item"		"Practicemode"
+	}
+	"Competitive"
+	{
+		"item"		"Aim 1on1"
+		"item"		"Arena 1on1"
+		"item"		"Wingman 2on2"
+		"item"		"Match 5on5 Bo1"
+		"item"		"Match 5on5 Bo3"
 	}
 	"ServerCommands"
 	{
