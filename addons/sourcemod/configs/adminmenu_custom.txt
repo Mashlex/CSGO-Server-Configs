@@ -126,7 +126,7 @@
 			}
 			"Single Danger Zone"
 			{
-				"cmd"				"sm_execcfg /gamesettings/funmodes/danger_zone.cfg;sm_futex 0.08 \"changelevel @1\";sm_futex 0.42 \"mp_warmuptime_all_players_connected	@2\";sm_futex 0.33 \"sm_execcfg /gamesettings/funmodes/danger_zone.cfg\""
+				"cmd"				"sm_execcfg /gamesettings/funmodes/danger_zone.cfg;sm_futex 0.08 \"changelevel @1\";sm_futex 0.42 \"mp_warmuptime_all_players_connected @2\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
@@ -138,7 +138,7 @@
 				"2"
 				{
 				"type" 				"list"
-				"title"				"How many Players (max. 16)"
+				"title"				"How many Players? (max. 16)"
 				"1"					"1"
 				"1."				"1 Only for Tests"
 				"2"					"2"
@@ -171,11 +171,10 @@
 				"15."				"15"
 				"16"				"16"
 				"16."				"16"
-
-				"
 				}
 			}
 	}
+
 	"Trainings Modes"
 	{
 			"Retake"
@@ -256,7 +255,7 @@
 				"1"
 				{
 				"type" 				"list"
-				"title"				"Which Deathmatch Mode"
+				"title"				"Which Deathmatch Mode?"
 				"1"					"ffa"
 				"1."				"Free for All"
 				"2"					"tm"
@@ -264,8 +263,7 @@
 				}
 				"2"
 				{
-				"type" 				"list"
-				"title"				"Damage Mode"
+				"type" 				"Which Damage Mode?"
 				"1"					"normal"
 				"1."				"Full Damage"
 				"2"					"headshot"
@@ -273,14 +271,14 @@
 				}
 				"3"
 				{
-				"title"				"Which Map"
+				"title"				"Which Map should be loaded?"
 				"type"				"mapcycle"
 				"path"				"/cfg/mappools/duty_maps.ini"
 				}
 				"4"
 				{
 				"type" 				"list"
-				"title"				"Roundtime"
+				"title"				"How long is the Roundtime?"
 				"1"					"5"
 				"1."				"5"
 				"2"					"10"
@@ -293,7 +291,7 @@
 				"5"
 				{
 				"type" 				"list"
-				"title"				"Bot Count"
+				"title"				"How many Bots?"
 				"1"					"0"
 				"1."				"No Bots"
 				"2"					"12"
