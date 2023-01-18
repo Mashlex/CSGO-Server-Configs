@@ -23,18 +23,19 @@ These plugins improve or enable different game modes. If you need help using the
 ## Included Modes
 | Name | Based On | Description |
 |----------|----------|----------|
+| Fun Mode ||
 | Casual | [Valve](https://developer.valvesoftware.com/wiki/Creating_a_Classic_Counter-Strike_Map) | Used as [Normal](https://developer.valvesoftware.com/wiki/Creating_a_Classic_Counter-Strike_Map) mode: Like Competitive but with fewer rounds, shorter freezetime per round, no friendly fire, no team collision, free armor and free defuse kit/cutters. Used as [Trigger Discipline](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes#trigger_Discipline) mode: Gunshots that a player does not hit an enemy with damage himself down to a minimum of 1 HP. |
 | Arms Race | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Arms_Race) | The game is one perpetual round where killed players respawn at the default spawns. A weapon progression (a number of guns and their order) is defined where players win by making a specified number of kills with each of these weapons. |
 | Demolition | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Demolition) | A mixture of Casual with Armsrace. Best of 20 rounds. Each player is given a fixed weapon for each round, depending on his individual progress. Each player can progress one gun per round by making at least one kill. |
 | Flying Scoutsman | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes#Flying_Scoutsman) | Only scouts and knives, low gravity, high precision. |
 | Danger Zone | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Danger_Zone) | A Battle Royale mode for big maps where players win by being the last man (or team) standing. Maps must be designed for this mode to work as intended. |
-|||
+| Trainings Mode ||
 | Retake | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes#Retakes) | Each round, 3 Terrorists spawn on a bomb site with a bomb being planted and 4 CTs spawn at fixed locations around it or on the other bomb spot. Each player can choose a loadout card at round start. |
 | Guardian | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Guardian) | Two human players must defend a bombsite as CT or hostages as T against rushing bots. Maps must support this mode to work as intended. |
 | Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) | Practice Mode is a sourcemod plugin for helping players/teams run practices. Check out the features and Practicemode | [command](https://github.com/splewis/csgo-practice-mode) list for a better understanding of all the tools practicemode provides. |
 | Team Deathmatch | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Deathmatch) | Like Armsrace but with free weapon choice and respawns across the map. Kills grant points, depending on the weapon type and if it is currently the bonus weapon. A player wins by scoring the highest after the round's time limit. Only opponents of the other team can be killed. In addition, this mode is also available as a headshot only mode. |
 | Free for All | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Deathmatch) | This mode is like the Team Deathmatch mode except that everyone, the opponents as well as your own team, are cleared for shooting. And of course this is also available as a headshot only mode. |
-|||
+| Competitive Mode||
 | Arena 1v1 | [Multi 1v1 Plugin](https://github.com/splewis/csgo-multi-1v1) | *soon* |
 | 1on1 Match | [Get5 Plugin](https://github.com/splewis/get5) | *soon* |
 | 2on2 Match | [Get5 Plugin](https://github.com/splewis/get5) | *soon* |
@@ -50,10 +51,10 @@ Some plug-ins have been omitted, such as Deathmatch or Arms Race, which only ask
 | Bot Add | If the Bots cant join automaticly, then you can add bots. | 
 | Generated Password | Generate a random server password and write it in the chat. | 
 | Remove Password | This remove the password, to change the server to a public server again. | 
-| Kick Player || 
-| Ban Player ||
-| Map Change ||
-| Map Vote ||
+| Kick Player | The "Kick Player" function in CSGO allows an administrator to remove a player from the current game. |
+| Ban Player | The "Ban Player" function in CSGO allows an administrator to prevent a player from joining the server again. It can be used for rule breaking or disruptive behavior. |
+| Map Change | The "Map Change" function in CSGO allows to switch to a different map during the game.|
+| Map Vote | The "Map Vote" function in CSGO allows players to vote for the next map through a plugin. |
 | Soft Reset | The reset menu item has three options for resetting the server. It is a quick way to reset the serverconfigs without changing the map. |
 | Hard Reset | The reset menu item has three options for resetting the server. It reload a map and reset the serverconfigs. |
 | Full Reset | The reset menu item has three options for resetting the server. It restarts the entire server and load the default startoptions setup. |
