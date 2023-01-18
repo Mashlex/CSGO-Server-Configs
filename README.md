@@ -59,9 +59,7 @@ Some plug-ins have been omitted, such as Deathmatch or Arms Race, which only ask
 | Map Change ||
 | Map Vote ||
 
-## Configs
-### Adminmenu Custom
-This file contains the extra gamesetting configurations with the queries for some individual commands. The game mode can be started via the admin menu and adjusted again and again without having to know anything about the source syntax. 
+## Configs 
 ### Server Config
 The server.cfg is the core of the server configs. It contains all the basic settings that are important.
 ### Gamemodes Configs
@@ -72,3 +70,5 @@ These are the config files which can be loaded via the admin menu and which merg
 These are mappools, very close to the default pools. But they can be easily adapted as desired.
 ### Adminmenu
 The standard "Adminmenu.smx" is edited. The menu items that are normally present have been removed and inserted as required.
+### Adminmenu Custom
+This file contains the extra gamesetting configurations with the queries for some individual commands. The game mode can be started via the admin menu and adjusted again and again without having to know anything about the source syntax.
