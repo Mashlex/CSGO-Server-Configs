@@ -1,9 +1,9 @@
 # CSGO-Server-Setup
-This Git provides some configs for an extended [CSGO Egg](https://github.com/Mashlex/Pterodactyl-Eggs/blob/199753a61b2bc9f04b5c4e3f6ecd1fea73615fb2/egg-counter--strike--global-offensive.json), which can be found in another Git. These files are missing from the standard CSGO server and are therefore loaded additionally.
+This Git provides some configs for an extended [CSGO Egg](https://github.com/Mashlex/Pterodactyl-Eggs/blob/199753a61b2bc9f04b5c4e3f6ecd1fea73615fb2/egg-counter--strike--global-offensive.json), which can be found in another Git. These files are missing from the standard CSGO server, so they are loaded additionally.
 
-The heart of this git is the Admin Menu Custom Config, in addition to the gamemode_server.cfg files. Thanks to Sourcemod, complete configurations and customisable parameters can be loaded into this menu. Which makes it easy in the end for every player with rights to start the mode with his wishes without having any idea of the syntax of the CSGO server.
+The core of this Git is the Admin Menu Custom Config, as well as the gamemode_server.cfg files. Thanks to Sourcemod, complete configurations and customizable parameters can be loaded into this menu, making it easy for players with rights to start the mode with their preferences without needing knowledge of the CSGO server's syntax.
 
-In addition, the package contains some useful plugins and configurations that can be copied directly to a server. Provided [Metamod](https://www.sourcemm.net/) and [Sourcemod](https://www.sourcemod.net/) are installed.
+Additionally, the package contains some useful plugins and configurations that can be copied directly to a server, provided that [Metamod](https://www.sourcemm.net/) and [Sourcemod](https://www.sourcemod.net/) are installed.
 
 ## Included Plugins/Extentions
 | Name | Description | Version |
@@ -18,7 +18,7 @@ In addition, the package contains some useful plugins and configurations that ca
 | [Multi 1v1](https://github.com/splewis/csgo-multi-1v1) | The multi1v1 plugin sets up any number of players in 1v1-situations on specially made maps and they fight in a ladder-type system each round. The winners move up an arena, and the losers go down an arena. Players choose between specific round types (for example: "rifle", "pistol", "awp"), and the plugin automatically spawns and gives players the appropriate weapons each round start. | 1.1.10 |
 | [Practice Mode](https://github.com/splewis/csgo-practice-mode) | Practice Mode is a sourcemod plugin for helping players/teams run practices. Check out the features and command list below for a better understanding of all the tools practicemode provides. | 1.3.4 |
 
-These plugins improve or enable the game modes. Do you need help for the use if the plugins. For Details go to the site of the plugins, or for a fast Guide go to the [Wiki](https://github.com/Mashlex/CSGO-Server-Setup/wiki), where everything important is quickly collected.
+These plugins improve or enable different game modes. If you need help using them, you can refer to the plugin's website for more information or visit the [Wiki](https://github.com/Mashlex/CSGO-Server-Setup/wiki), where all important information is compiled quickly.
 
 ## Included Modes
 | Name | Based On | Description |
