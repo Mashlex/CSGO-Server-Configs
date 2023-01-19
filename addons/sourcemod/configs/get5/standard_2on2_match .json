@@ -1,6 +1,6 @@
 {
 	"matchid": "Privat Match",
-	"num_maps": 3,
+	"num_maps": 1,
 	"players_per_team": 1,
 	"min_players_to_ready": 1,
 	"min_spectators_to_ready": 0,
@@ -45,9 +45,9 @@
 	},
 
 	"cvars": {
-		"hostname": "Privat Match",
-		"sm_practicemode_can_be_started": "0",
-		"mp_maxrounds":		"15",
-		"mp_overtime_enable":	"1"
+		"hostname": 						"Privat Match",
+		"sm_practicemode_can_be_started": 	"0",
+		"mp_maxrounds":						"8",
+		"mp_overtime_enable":				"1"
 	}
 }
