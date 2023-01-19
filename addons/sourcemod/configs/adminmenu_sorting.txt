@@ -35,6 +35,7 @@
 
 	"Server Setup"
 	{
+		"item"		"Server Reset"
 		"item"		"sm_map"
 		"item"		"sm_execcfg"
 		"item"		"sm_reloadadmins"

@@ -515,6 +515,23 @@
 
 	"Server Setup"
 	{
+			"Server Reset"
+			{
+				"cmd"				"sm_execcfg /gamesettings/default/server_reset_@1.cfg"
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"type" 				"list"
+				"title"				"Which Reset?"
+				"1"					"soft"
+				"1."				"Reset Config"
+				"2"					"hard"		
+				"2."				"Reset Plugins and Config"
+				"3"					"full"
+				"3."				"Reset All"
+				}
+			}
 			"Bot Count"
 			{
 				"cmd"				"sm_execcfg /gamesettings/training/retake.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.29 \"bot_quota @2\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/retake.cfg\""
@@ -709,18 +726,6 @@
 				}
 			}
 			"Map Vote"
-			{
-				"cmd"				"sm_execcfg /gamesettings/training/practice.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/practice.cfg\""
-				"admin"				"sm_ban"
-				"execute"			"server"
-				"1"
-				{
-				"title"				"Which Map should be loaded?"
-				"type"				"mapcycle"
-				"path"				"/cfg/mappools/duty_maps.ini"
-				}
-			}
-			"Server Reset"
 			{
 				"cmd"				"sm_execcfg /gamesettings/training/practice.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/practice.cfg\""
 				"admin"				"sm_ban"
