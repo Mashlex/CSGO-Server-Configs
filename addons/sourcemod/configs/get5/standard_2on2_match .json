@@ -1,7 +1,7 @@
 {
-	"matchid": "Privat Match",
+	"matchid": "Privat Match Wingman",
 	"num_maps": 1,
-	"players_per_team": 1,
+	"players_per_team":2,
 	"min_players_to_ready": 1,
 	"min_spectators_to_ready": 0,
 	"skip_veto": false,
@@ -45,7 +45,7 @@
 	},
 
 	"cvars": {
-		"hostname": 						"Privat Match",
+		"hostname": 						"Privat Match Wingman",
 		"sm_practicemode_can_be_started": 	"0",
 		"mp_maxrounds":						"8",
 		"mp_overtime_enable":				"1"

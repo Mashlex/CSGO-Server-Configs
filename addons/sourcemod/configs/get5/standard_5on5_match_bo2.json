@@ -45,9 +45,9 @@
 	},
 
 	"cvars": {
-		"hostname": "Privat Match",
-		"sm_practicemode_can_be_started": "0",
-		"mp_maxrounds":		"15",
-		"mp_overtime_enable":	"1"
+		"hostname": 						"Privat Match",
+		"sm_practicemode_can_be_started": 	"0",
+		"mp_maxrounds":						"15",
+		"mp_overtime_enable":				"1"
 	}
 }

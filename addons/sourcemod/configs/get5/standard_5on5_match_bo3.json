@@ -1,12 +1,12 @@
 {
-	"matchid": "Privat Match Duel",
-	"num_maps": 1,
+	"matchid": "Privat Match",
+	"num_maps": 3,
 	"players_per_team": 1,
 	"min_players_to_ready": 1,
 	"min_spectators_to_ready": 0,
 	"skip_veto": false,
 	"veto_first": "team1",
-	"side_type": "never_knife",
+	"side_type": "always_knife",
 
 	"maplist":
 	[
@@ -36,14 +36,18 @@
 		"name": "Other Team",
 		"players":
 		{
+			"STEAM_1:1:....." : "",
+			"STEAM_1:1:....." : "",
+			"STEAM_1:1:....." : "",
+			"STEAM_1:1:....." : "",
 			"STEAM_1:1:....." : ""
 		}
 	},
 
 	"cvars": {
-		"hostname": 						"Privat Match Duel",
+		"hostname": 						"Privat Match",
 		"sm_practicemode_can_be_started": 	"0",
-		"mp_maxrounds":						"8",
+		"mp_maxrounds":						"15",
 		"mp_overtime_enable":				"1"
 	}
 }
