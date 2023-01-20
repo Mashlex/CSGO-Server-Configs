@@ -368,7 +368,7 @@
 	{
 			"Aim 1on1"
 			{
-				"cmd"				"sm_execcfg /gamesettings/training/competitive/aim.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.29 \"bot_quota @2\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/competitive/aim.cfg\""
+				"cmd"				"sm_execcfg /gamesettings/competitive/aim.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.29 \"bot_quota @2\";sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/aim.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
