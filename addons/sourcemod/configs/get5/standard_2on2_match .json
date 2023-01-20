@@ -4,29 +4,14 @@
 	"players_per_team":2,
 	"min_players_to_ready": 1,
 	"min_spectators_to_ready": 0,
-	"skip_veto": false,
+	"skip_veto": true,
 	"veto_first": "team1",
 	"side_type": "always_knife",
-
-	"maplist":
-	[
-		"de_dust2",
-		"de_inferno",
-		"de_mirage",
-		"de_nuke",
-		"de_overpass",
-		"de_train",
-		"de_vertigo"
-	],
-
 
 	"team1": {
 		"name": "One Team",
 		"players":
 		{
-			"STEAM_1:1:....." : "",
-			"STEAM_1:1:....." : "",
-			"STEAM_1:1:....." : "",
 			"STEAM_1:1:....." : "",
 			"STEAM_1:1:....." : ""
 		}
@@ -36,9 +21,6 @@
 		"name": "Other Team",
 		"players":
 		{
-			"STEAM_1:1:....." : "",
-			"STEAM_1:1:....." : "",
-			"STEAM_1:1:....." : "",
 			"STEAM_1:1:....." : "",
 			"STEAM_1:1:....." : ""
 		}

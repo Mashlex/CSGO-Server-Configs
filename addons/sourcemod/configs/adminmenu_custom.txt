@@ -368,7 +368,7 @@
 	{
 			"Aim 1on1"
 			{
-				"cmd"				"sm_execcfg /gamesettings/competitive/aim.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.29 \"bot_quota @2\";sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/aim.cfg\""
+				"cmd"				"sm_execcfg /gamesettings/competitive/aim_1on1.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/aim_1on1.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
@@ -377,29 +377,10 @@
 				"type"		"mapcycle"
 				"path"		"/cfg/mappools/aim_maps.ini"
 				}
-				"2"
-				{
-				"type" 				"list"
-				"title"				"How many Bots?"
-				"1"					"0"
-				"1."				"No Bots"
-				"2"					"10"		
-				"2."				"10"
-				"3"					"8"
-				"3."				"8"
-				"4"					"6"
-				"4."				"6"	
-				"5"					"4"		
-				"5."				"4"
-				"6"					"2"
-				"6."				"2"
-				"7"					"1"
-				"7."				"1"
-				}
 			}
 			"Arena 1on1"
 			{
-				"cmd"				"sm_execcfg /gamesettings/competitive/arena.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/arena.cfg\""
+				"cmd"				"sm_execcfg /gamesettings/competitive/arena_1on1.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/arena_1on1.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
@@ -411,7 +392,7 @@
 			}
 			"Wingman 2on2"
 			{
-				"cmd"				"sm_execcfg /gamesettings/competitive/wingman.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/wingman.cfg\""
+				"cmd"				"sm_execcfg /gamesettings/competitive/wingman_2on2.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/wingman_2on2.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
@@ -423,7 +404,7 @@
 			}
 			"Match 5on5"
 			{
-				"cmd"				"sm_execcfg /gamesettings/competitive/@2.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/@2.cfg\""
+				"cmd"				"sm_execcfg /gamesettings/competitive/match_5on5_@2.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/match_5on5_@2.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"

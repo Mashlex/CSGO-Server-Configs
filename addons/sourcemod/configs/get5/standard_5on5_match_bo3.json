@@ -1,7 +1,7 @@
 {
 	"matchid": "Privat Match",
 	"num_maps": 3,
-	"players_per_team": 1,
+	"players_per_team": 5,
 	"min_players_to_ready": 1,
 	"min_spectators_to_ready": 0,
 	"skip_veto": false,
@@ -10,12 +10,12 @@
 
 	"maplist":
 	[
-		"de_dust2",
+		"de_ancient",
 		"de_inferno",
 		"de_mirage",
 		"de_nuke",
 		"de_overpass",
-		"de_train",
+		"dde_anubis",
 		"de_vertigo"
 	],
 
