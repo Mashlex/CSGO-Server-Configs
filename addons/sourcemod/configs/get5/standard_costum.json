@@ -1,22 +1,31 @@
 {
-	"matchid": "Privat Match Wingman",
+	"matchid": "Privat Match",
 	"num_maps": 1,
-	"players_per_team": 2,
+	"players_per_team": 5,
 	"min_players_to_ready": 1,
 	"min_spectators_to_ready": 0,
-	"skip_veto": 1,
+	"skip_veto": false,
 	"veto_first": "team1",
 	"side_type": "always_knife",
 
 	"maplist":
 	[
-		"lobby_mapveto"
+		"de_ancient",
+		"de_inferno",
+		"de_mirage",
+		"de_nuke",
+		"de_overpass",
+		"de_anubis",
+		"de_vertigo"
 	],
 
 	"team1": {
 		"name": "One Team",
 		"players":
 		{
+			"STEAM_1:1:....." : "",
+			"STEAM_1:1:....." : "",
+			"STEAM_1:1:....." : "",
 			"STEAM_1:1:....." : "",
 			"STEAM_1:1:....." : ""
 		}
@@ -27,14 +36,17 @@
 		"players":
 		{
 			"STEAM_1:1:....." : "",
+			"STEAM_1:1:....." : "",
+			"STEAM_1:1:....." : "",
+			"STEAM_1:1:....." : "",
 			"STEAM_1:1:....." : ""
 		}
 	},
 
 	"cvars": {
-		"hostname": 						"Privat Match Wingman",
+		"hostname": 						"Privat Match",
 		"sm_practicemode_can_be_started": 	"0",
-		"mp_maxrounds":						"8",
+		"mp_maxrounds":						"15",
 		"mp_overtime_enable":				"1"
 	}
 }

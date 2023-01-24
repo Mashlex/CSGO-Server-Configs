@@ -1,12 +1,17 @@
 {
-	"matchid": "Privat Match Duel",
+	"matchid": "Privat Match",
 	"num_maps": 1,
 	"players_per_team": 1,
 	"min_players_to_ready": 1,
 	"min_spectators_to_ready": 0,
-	"skip_veto": true,
-	"veto_first": "team1",
+	"skip_veto": 1,
 	"side_type": "never_knife",
+
+	"maplist":
+	[
+		"lobby_mapveto"
+	],
+
 
 	"team1": {
 		"name": "One Team",
@@ -25,9 +30,10 @@
 	},
 
 	"cvars": {
-		"hostname": 						"Privat Match Duel",
+		"hostname": 						"Privat Match",
 		"sm_practicemode_can_be_started": 	"0",
-		"mp_maxrounds":						"8",
-		"mp_overtime_enable":				"1"
+		"mp_maxrounds":						"15",
+		"mp_overtime_enable":				"1",
+		"get5_live_countdown_time":  		"5"
 	}
 }
