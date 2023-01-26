@@ -27,12 +27,13 @@ These plugins improve or enable different game modes. If you need help using the
 | Arms Race | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Arms_Race) | The game is one perpetual round where killed players respawn at the default spawns. A weapon progression (a number of guns and their order) is defined where players win by making a specified number of kills with each of these weapons. |
 | Demolition | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Demolition) | A mixture of Casual with Armsrace. Best of 20 rounds. Each player is given a fixed weapon for each round, depending on his individual progress. Each player can progress one gun per round by making at least one kill. |
 | Flying Scoutsman | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes#Flying_Scoutsman) | Only scouts and knives, low gravity, high precision. |
-| Danger Zone | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Danger_Zone) | A Battle Royale mode for big maps where players win by being the last man (or team) standing. Maps must be designed for this mode to work as intended. |
+| Solo Danger Zone | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Danger_Zone) | A Battle Royale mode for big maps where players win by being the last man (or team) standing. Maps must be designed for this mode to work as intended. |
 | Retake | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes#Retakes) | Each round, 3 Terrorists spawn on a bomb site with a bomb being planted and 4 CTs spawn at fixed locations around it or on the other bomb spot. Each player can choose a loadout card at round start. |
 | Guardian | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Guardian) | Two human players must defend a bombsite as CT or hostages as T against rushing bots. Maps must support this mode to work as intended. |
-| Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) | Practice Mode is a sourcemod plugin for helping players/teams run practices. Check out the features and Practicemode | [command](https://github.com/splewis/csgo-practice-mode) list for a better understanding of all the tools practicemode provides. |
+| Aimmaps | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Deathmatch) | Aimmaps ist ein modus der auf Teamdeathmatch bassiert mit reinen Aimmaps. Zusätzlich kann dies auch noch als "Only Headshot" gestartet werden. |
 | Team Deathmatch | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Deathmatch) | Like Armsrace but with free weapon choice and respawns across the map. Kills grant points, depending on the weapon type and if it is currently the bonus weapon. A player wins by scoring the highest after the round's time limit. Only opponents of the other team can be killed. In addition, this mode is also available as a headshot only mode. |
 | Free for All | [Valve](https://developer.valvesoftware.com/wiki/CS:GO_Game_Modes/Deathmatch) | This mode is like the Team Deathmatch mode except that everyone, the opponents as well as your own team, are cleared for shooting. And of course this is also available as a headshot only mode. |
+| Practicemode | [Practice Plugin](https://github.com/splewis/csgo-practice-mode) | Practice Mode is a sourcemod plugin for helping players/teams run practices. Check out the features and Practicemode | [command](https://github.com/splewis/csgo-practice-mode) list for a better understanding of all the tools practicemode provides. |
 | Arena 1on1 | [Multi 1v1 Plugin](https://github.com/splewis/csgo-multi-1v1) | *soon* |
 | Aim 1on1 | [Get5 Plugin](https://github.com/splewis/get5) | *soon* |
 | Wingman 2on2 | [Get5 Plugin](https://github.com/splewis/get5) | *soon* |
@@ -46,6 +47,8 @@ Some plug-ins have been omitted, such as Deathmatch or Arms Race, which only ask
 | Bot Count | Behind this is the command "bot_quota", which changes the number of possible bots. | 
 | Bot Kick | Kick the Bot from the Server. |  
 | Bot Add | If the Bots cant join automaticly, then you can add bots. | 
+| Bot Add T | If the Bots cant join automaticly, then you can add bots to T Side. | 
+| Bot Add CT | If the Bots cant join automaticly, then you can add bots to CT Side. | 
 | Generated Password | Generate a random server password and write it in the chat. | 
 | Remove Password | This remove the password, to change the server to a public server again. | 
 | Kick Player | The "Kick Player" function in CSGO allows an administrator to remove a player from the current game. |
@@ -69,3 +72,5 @@ These are mappools, very close to the default pools. But they can be easily adap
 The standard "Adminmenu.smx" is edited. The menu items that are normally present have been removed and inserted as required.
 ### Adminmenu Custom
 This file contains the extra gamesetting configurations with the queries for some individual commands. The game mode can be started via the admin menu and adjusted again and again without having to know anything about the source syntax.
+### Botprofile
+The bug with the rank not being available bothered me. That's why the console no longer shows it. Maybe Valve will fix it one day or HL3 will be released.
