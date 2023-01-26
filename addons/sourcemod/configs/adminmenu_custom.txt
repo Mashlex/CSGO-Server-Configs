@@ -155,7 +155,7 @@
 				"8."				"1"
 				}
 			}
-			"Single Danger Zone"
+			"Solo Danger Zone"
 			{
 				"cmd"				"sm_execcfg /gamesettings/funmodes/danger_zone.cfg;sm_futex 0.08 \"changelevel @1\""
 				"admin"				"sm_ban"
@@ -243,16 +243,25 @@
 			}
 			"Aimmaps"
 			{
-				"cmd"				"sm_execcfg /gamesettings/training/aimmaps.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.29 \"mp_roundtime @2\"; sm_futex 0.29 \"bot_quota @3\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/aimmaps.cfg\""
+				"cmd"				"sm_execcfg /gamesettings/training/aimmaps_@1.cfg;sm_futex 0.05 \"changelevel @2\";sm_futex 0.29 \"mp_roundtime @3\"; sm_futex 0.29 \"bot_quota @4\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/aimmaps_@1.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
+				{
+				"type" 				"list"
+				"title"				"Only Headshot Mode?"
+				"1"					"normal"
+				"1."				"No"
+				"2"					"headshot"
+				"2."				"Yes"
+				}
+				"2"
 				{
 				"title"				"Which Map should be loaded?"
 				"type"				"mapcycle"
 				"path"				"/cfg/mappools/aim_maps.ini"
 				}
-				"2"
+				"3"
 				{
 				"type" 				"list"
 				"title"				"How long is the Roundtime?"
@@ -265,7 +274,7 @@
 				"4"					"20"
 				"4."				"20"
 				}
-				"3"
+				"4"
 				{
 				"type" 				"list"
 				"title"				"How many Bots?"
