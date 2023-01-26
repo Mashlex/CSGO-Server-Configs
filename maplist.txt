@@ -1,5 +1,3 @@
-// Defuse Maps
-//
 // Duty Maps
 de_ancient
 de_inferno
@@ -38,6 +36,7 @@ ar_monastery
 ar_shoots
 ar_chess
 de_stmarc
+fy_pool_day
 
 // Danger Zone Maps
 dz_blacksite
@@ -72,9 +71,11 @@ de_train
 de_vertigo
 
 // Aim Maps
-aim_cityv1_d
+aim_aim_aim
 aim_redline
+aim_dust2
 aim_s
+aim_goofyaim
 
 // Arena Maps
 aim_multi_v4
