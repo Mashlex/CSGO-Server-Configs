@@ -1,7 +1,7 @@
 # CSGO-Server-Setup
 This Git provides some configs for an extended [CSGO Egg](https://github.com/Mashlex/Pterodactyl-Eggs/blob/199753a61b2bc9f04b5c4e3f6ecd1fea73615fb2/egg-counter--strike--global-offensive.json), which can be found in another Git. These files are missing from the standard CSGO server, so they are loaded additionally.
 
-The core of this Git is the Admin Menu Custom Config, as well as the gamemode_server.cfg files. Thanks to Sourcemod, complete configurations and customizable parameters can be loaded into this menu, making it easy for players with rights to start the mode with their preferences without needing knowledge of the CSGO server's syntax.
+The core of this Git is the Admin Menu Custom Config, as well as the gamemode_server.cfg files. Thanks to Sourcemod, complete configurations and customizable parameters can be loaded into this menu, making it easy for players with rights to start the mode with their preferences without needing knowledge of the CSGO server's syntax. To make full use of the menu, you should add the [Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2919873317) Maps to the server. Without it, certain maps cannot be loaded.
 
 Additionally, the package contains some useful plugins and configurations that can be copied directly to a server, provided that [Metamod](https://www.sourcemm.net/) and [Sourcemod](https://www.sourcemod.net/) are installed.
 
