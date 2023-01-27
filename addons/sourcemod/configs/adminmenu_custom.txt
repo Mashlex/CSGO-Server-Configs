@@ -58,16 +58,25 @@
 			}
 			"Arms Race"
 			{
-				"cmd"				"sm_execcfg /gamesettings/funmodes/arms_race.cfg;sm_futex 0.08 \"changelevel @1\";sm_futex 0.42 \"bot_quota @2\";sm_futex 0.33 \"sm_execcfg /gamesettings/funmodes/arms_race.cfg\""
+				"cmd"				"sm_execcfg /gamesettings/funmodes/arms_race_@1.cfg;sm_futex 0.08 \"changelevel @2\";sm_futex 0.42 \"bot_quota @3\";sm_futex 0.33 \"sm_execcfg /gamesettings/funmodes/arms_race_@1.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
+				{
+				"type" 				"list"
+				"title"				"Which typ of Arms Race?"
+				"1"					"normal"
+				"1."				"normal"
+				"2"					"crazy"
+				"2."				"crazy"
+				}
+				"2"
 				{
 				"title"		"Which Map should be loaded?"
 				"type"		"mapcycle"
 				"path"		"/cfg/mappools/arms_race_maps.ini"
 				}
-				"2"
+				"3"
 				{
 				"type" 				"list"
 				"title"				"How many Bots?"
