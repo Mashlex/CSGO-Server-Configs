@@ -1,20 +1,22 @@
 {
-	"matchid": "Privat Match",
+	"matchid": "Privat 1on1 Match",
 	"num_maps": 1,
 	"players_per_team": 1,
 	"min_players_to_ready": 1,
 	"min_spectators_to_ready": 0,
-	"skip_veto": 1,
+	"skip_veto": false,
+	"veto_first": "team1",
 	"side_type": "never_knife",
 
-
-
-"maplist": {
-
-	"fromfile": "cfg/mappools/aim_maps.ini"
-	
-},
-
+	"maplist":
+	[
+		"aim_aim_aim",
+		"aim_dust2",
+		"aim_redline",
+		"aim_s",
+		"aim_goofyaim",
+		"lobby_mapveto"
+	],
 
 	"team1": {
 		"name": "One Team",

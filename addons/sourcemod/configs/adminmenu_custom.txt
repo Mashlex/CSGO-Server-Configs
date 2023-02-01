@@ -386,7 +386,7 @@
 	{
 			"Aim 1on1"
 			{
-				"cmd"				"sm_execcfg /gamesettings/competitive/aim_1on1.cfg;sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/aim_1on1.cfg\""
+				"cmd"				"sm_execcfg /gamesettings/competitive/aim_1on1.cfg;sm_futex 0.05 \"changelevel lobby_mapveto\";sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/aim_1on1.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 			}
@@ -404,38 +404,15 @@
 			}
 			"Wingman 2on2"
 			{
-				"cmd"				"sm_execcfg /gamesettings/competitive/wingman_2on2.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/wingman_2on2.cfg\""
+				"cmd"				"sm_execcfg /gamesettings/competitive/aim_2on2.cfg;sm_futex 0.05 \"changelevel lobby_mapveto\";sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/aim_2on2.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
-				"1"
-				{
-				"title"		"Which Map should be loaded?"
-				"type"		"mapcycle"
-				"path"		"/cfg/mappools/wingman_maps.ini"
-				}
 			}
 			"Match 5on5"
 			{
-				"cmd"				"sm_execcfg /gamesettings/competitive/match_5on5_@2.cfg;sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/match_5on5_@2.cfg\""
+				"cmd"				"sm_execcfg /gamesettings/competitive/aim_5on5.cfg;sm_futex 0.05 \"changelevel lobby_mapveto\";sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/aim_5on5.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
-				"1"
-				{
-				"title"				"Which Map should be loaded?"
-				"type"				"mapcycle"
-				"path"				"/cfg/mappools/standard_maps.ini"
-				}
-				"2"
-				{
-				"type" 				"list"
-				"title"				"How many Maps?"
-				"1"					"bo1"
-				"1."				"Bo1"
-				"2"					"bo2"		
-				"2."				"Bo2"
-				"3"					"bo3"
-				"3."				"Bo3"
-				}
 			}
 	}
 
