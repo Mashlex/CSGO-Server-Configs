@@ -7,10 +7,13 @@
 	"skip_veto": 1,
 	"side_type": "never_knife",
 
-	"maplist":
-	[
-		"lobby_mapveto"
-	],
+
+
+"maplist": {
+
+	"fromfile": "cfg/mappools/aim_maps.ini"
+	
+},
 
 
 	"team1": {
