@@ -26,22 +26,18 @@
 
 	"Competitive Modes"
 	{
-		"item"		"Aim 1on1"
 		"item"		"Arena 1on1"
+		"item"		"Aim 1on1"
 		"item"		"Wingman 2on2"
 		"item"		"Match 5on5 Bo1"
 		"item"		"Match 5on5 Bo3"
 	}
 
-	"Server Setup"
+	"Server Reset"
 	{
-		"item"		"Server Reset"
-		"item"		"sm_map"
-		"item"		"sm_execcfg"
-		"item"		"sm_reloadadmins"
-		"item"		"Server Reset Soft"
-		"item"		"Server Reset Hard"
-		"item"		"Server Reset Full"
+		"item"		"Server Soft Reset"
+		"item"		"Server Hard Reset"
+		"item"		"Server Full Reset"
 	}
 
 }
