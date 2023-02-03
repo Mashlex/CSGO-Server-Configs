@@ -14,8 +14,7 @@
 		"aim_dust2",
 		"aim_redline",
 		"aim_s",
-		"aim_goofyaim",
-		"lobby_mapveto"
+		"aim_goofyaim"
 	],
 
 	"team1": {
@@ -37,7 +36,7 @@
 	"cvars": {
 		"hostname": 						"Privat Match",
 		"sm_practicemode_can_be_started": 	"0",
-		"mp_maxrounds":						"15",
+		"mp_maxrounds":						"16",
 		"mp_overtime_enable":				"1",
 		"get5_live_countdown_time":  		"5"
 	}

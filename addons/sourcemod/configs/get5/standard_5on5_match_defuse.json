@@ -1,7 +1,7 @@
 {
-	"matchid": "Privat Wingman Match",
+	"matchid": "Privat 5on5 Match",
 	"num_maps": 1,
-	"players_per_team": 2,
+	"players_per_team": 5,
 	"min_players_to_ready": 1,
 	"min_spectators_to_ready": 0,
 	"skip_veto": false,
@@ -10,23 +10,35 @@
 
 	"maplist":
 	[
-		"de_cbble",
+		"de_ancient",
 		"de_inferno",
-		"de_lake",
+		"de_mirage",
+		"de_nuke",
 		"de_overpass",
-		"de_shortdust",
-		"de_shortnuke",
-		"de_train",
+		"de_anubis",
 		"de_vertigo",
-		"de_bank",
-		"de_safehouse",
-		"de_stmarc"
+		"de_cache",
+		"de_train",
+		"de_tuscan",
+		"de_cbble",
+		"de_dust2",
+		"de_aztec",
+		"de_abbey",
+		"de_canals",
+		"de_zoo",
+		"de_basalt",
+		"de_season",
+		"de_overgrown"
 	],
 
+	
 	"team1": {
 		"name": "One Team",
 		"players":
 		{
+			"STEAM_1:1:....." : "",
+			"STEAM_1:1:....." : "",
+			"STEAM_1:1:....." : "",
 			"STEAM_1:1:....." : "",
 			"STEAM_1:1:....." : ""
 		}
@@ -37,14 +49,17 @@
 		"players":
 		{
 			"STEAM_1:1:....." : "",
+			"STEAM_1:1:....." : "",
+			"STEAM_1:1:....." : "",
+			"STEAM_1:1:....." : "",
 			"STEAM_1:1:....." : ""
 		}
 	},
 
 	"cvars": {
-		"hostname": 						"Privat Match Wingman",
+		"hostname": 						"Privat Match",
 		"sm_practicemode_can_be_started": 	"0",
-		"mp_maxrounds":						"16",
+		"mp_maxrounds":						"30",
 		"mp_overtime_enable":				"1",
 		"get5_live_countdown_time":  		"5"
 	}

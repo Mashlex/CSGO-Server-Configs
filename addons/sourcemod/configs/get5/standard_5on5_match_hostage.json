@@ -1,5 +1,5 @@
 {
-	"matchid": "Privat Match",
+	"matchid": "Privat 5on5 Match",
 	"num_maps": 1,
 	"players_per_team": 5,
 	"min_players_to_ready": 1,
@@ -10,13 +10,11 @@
 
 	"maplist":
 	[
-		"de_ancient",
-		"de_inferno",
-		"de_mirage",
-		"de_nuke",
-		"de_overpass",
-		"de_anubis",
-		"de_vertigo"
+		"cs_agency",
+		"cs_assault",
+		"cs_italy",
+		"cs_militia",
+		"cs_office"
 	],
 
 	
@@ -47,7 +45,8 @@
 	"cvars": {
 		"hostname": 						"Privat Match",
 		"sm_practicemode_can_be_started": 	"0",
-		"mp_maxrounds":						"15",
-		"mp_overtime_enable":				"1"
+		"mp_maxrounds":						"30",
+		"mp_overtime_enable":				"1",
+		"get5_live_countdown_time":  		"5"
 	}
 }
