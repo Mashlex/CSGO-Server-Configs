@@ -46,6 +46,7 @@
 		"sm_practicemode_can_be_started": 	"0",
 		"mp_maxrounds":						"16",
 		"mp_overtime_enable":				"1",
-		"get5_live_countdown_time":  		"5"
+		"get5_live_countdown_time":  		"5",
+		"mp_friendly_fire": 				"0"
 	}
 }
