@@ -423,6 +423,8 @@
 				"2."				"Collection of Defuse Maps"
 				"3"					"hostage"
 				"3."				"Hostage Maps"
+				"4"					"standard"
+				"4."				"No Map Vote"
 				}
 			}
 	}
