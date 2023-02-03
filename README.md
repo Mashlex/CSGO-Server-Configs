@@ -39,6 +39,9 @@ These plugins improve or enable different game modes. If you need help using the
 | Aim 1on1 | [Get5 Plugin](https://github.com/splewis/get5) | For 1 vs 1 duels in matchmaking style over 16 rounds. Exclusively on Aimmaps, which are also included in the Prelive Veto. |
 | Wingman 2on2 | [Get5 Plugin](https://github.com/splewis/get5) | Like Competitive, but adjusted for 2v2 and for a smaller map or a map section. Best of 16 rounds. Also, each round is shorter. |
 | Match 5on5 | [Get5 Plugin](https://github.com/splewis/get5) | The classic game mode, usually made for 5v5. Best of 30 rounds, teams are switched at halftime, friendly fire is on. Round-ending objectives are elimination, bomb explosion, bomb defusal, hostage rescue and timeout. You can choose between three BO1 variants with veto maps. You can choose between Valve Duty Mappool or the maps with other classic Defuse maps. There are also a few hostage maps. And last but not least a No Veto Matchmaking, where the map can be selected manually. | 
+| Soft Reset | [Valve](https://developer.valvesoftware.com/wiki/Creating_a_Classic_Counter-Strike_Map) | The reset menu item has three options for resetting the server. It is a quick way to reset the serverconfigs without changing the map. |
+| Hard Reset | [Valve](https://developer.valvesoftware.com/wiki/Creating_a_Classic_Counter-Strike_Map) | The reset menu item has three options for resetting the server. It reload a map and reset the serverconfigs. |
+| Full Reset | [Valve](https://developer.valvesoftware.com/wiki/Creating_a_Classic_Counter-Strike_Map) | The reset menu item has three options for resetting the server. It restarts the entire server and load the default startoptions setup. |
 
 Some plug-ins have been omitted, such as Deathmatch or Arms Race, which only ask for a little added value. This means that you are not dependent on other plug-ins.
 
@@ -56,9 +59,6 @@ Some plug-ins have been omitted, such as Deathmatch or Arms Race, which only ask
 | Ban Player | The "Ban Player" function in CSGO allows an administrator to prevent a player from joining the server again. It can be used for rule breaking or disruptive behavior. |
 | Map Change | The "Map Change" function in CSGO allows to switch to a different map during the game.|
 | Map Vote | The "Map Vote" function in CSGO allows players to vote for the next map through a plugin. |
-| Soft Reset | The reset menu item has three options for resetting the server. It is a quick way to reset the serverconfigs without changing the map. |
-| Hard Reset | The reset menu item has three options for resetting the server. It reload a map and reset the serverconfigs. |
-| Full Reset | The reset menu item has three options for resetting the server. It restarts the entire server and load the default startoptions setup. |
 
 ## Configs 
 ### Server Config
