@@ -39,5 +39,14 @@
 		"item"		"Server Full Reset"
 	}
 
+	"Server Commands"
+	{
+		"item"		"Server Password"
+		"item"		"Changelevel"
+		"item"		"Mapvote"
+		"item"		"Bot Quota"
+		"item"		"Bot Add"
+		"item"		"Remove Player"
+	}
 }
 

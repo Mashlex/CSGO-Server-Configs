@@ -39,7 +39,7 @@
 				"3"
 				{
 				"type" 				"list"
-				"title"				"How many Bots?"
+				"title"				"How many Bots and Players?"
 				"1"					"0"
 				"1."				"No Bots"
 				"2"					"10"		
@@ -79,7 +79,7 @@
 				"3"
 				{
 				"type" 				"list"
-				"title"				"How many Bots?"
+				"title"				"How many Bots and Players?"
 				"1"					"0"
 				"1."				"No Bots"
 				"2"					"12"
@@ -112,7 +112,7 @@
 				"2"
 				{
 				"type" 				"list"
-				"title"				"How many Bots?"
+				"title"				"How many Bots and Players?"
 				"1"					"0"
 				"1."				"No Bots"
 				"2"					"12"
@@ -145,7 +145,7 @@
 				"2"
 				{
 				"type" 				"list"
-				"title"				"How many Bots?"
+				"title"				"How many Bots and Players?"
 				"1"					"0"
 				"1."				"No Bots"
 				"2"					"12"
@@ -194,7 +194,7 @@
 				"2"
 				{
 				"type" 				"list"
-				"title"				"How many Bots?"
+				"title"				"How many Bots and Players?"
 				"1"					"0"
 				"1."				"No Bots"
 				"2"					"10"		
@@ -225,7 +225,7 @@
 				"2"
 				{
 				"type" 				"list"
-				"title"				"How many Bots?"
+				"title"				"How many Bots and Players?"
 				"1"					"0"
 				"1."				"No Bots"
 				"2"					"10"		
@@ -286,7 +286,7 @@
 				"4"
 				{
 				"type" 				"list"
-				"title"				"How many Bots?"
+				"title"				"How many Bots and Players?"
 				"1"					"0"
 				"1."				"No Bots"
 				"2"					"12"
@@ -349,7 +349,7 @@
 				"5"
 				{
 				"type" 				"list"
-				"title"				"How many Bots?"
+				"title"				"How many Bots and Players?"
 				"1"					"0"
 				"1."				"No Bots"
 				"2"					"12"
@@ -448,6 +448,126 @@
 				"cmd"				"sm_execcfg /gamesettings/default/server_reset_full.cfg"
 				"admin"				"sm_ban"
 				"execute"			"server"
+			}
+	}
+
+	"Server Commands"
+	{
+			"Server Password"
+			{
+				"cmd"				"@1"
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"type" 				"list"
+				"title"				"Set a Password for the Server"
+				"1"					"sv_password; say Password is resets"
+				"1."				"Reset Password"
+				"2"					"sm_newpassword"
+				"2."				"Generate Random Password"
+				}
+			}
+			"Changelevel"
+			{
+				"cmd"		"changelevel @1"
+				"admin"		"sm_ban"
+				"execute"	"server"
+				"1"
+				{
+				"title"		"Which Map?"
+				"type"		"mapcycle"
+				"path"		"maplist.txt"
+				}
+			}
+			"Mapvote"
+			{
+				"cmd"		"sm_votemap @1"
+				"admin"		"sm_votemap"
+				"execute"	"server"
+				"1"
+				{
+				"title"		"Which Map do you want to play?"
+				"type"		"mapcycle"
+				"path"		"maplist.txt"
+				}
+			}
+			"Bot Quota"
+			{
+				"cmd"				"bot_quota @1"
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"type" 				"list"
+				"title"				"How many Bots and Players?"
+				"1"					"0"
+				"1."				"No Bots"
+				"2"					"12"
+				"2."				"12"
+				"3"					"11"
+				"3."				"11"
+				"4"					"10"		
+				"4."				"10"
+				"5"					"9"
+				"5."				"9"
+				"6"					"8"
+				"6."				"8"	
+				"7"					"7"		
+				"7."				"7"
+				"8"					"6"
+				"8."				"6"
+				"9"					"5"
+				"9."				"5"
+				"10"				"4"
+				"10."				"4"
+				"11"				"3"
+				"11."				"3"
+				"12"				"2"
+				"12."				"2"
+				"13"				"1"
+				"13."				"1"
+				}
+			}
+			"Bot Add"
+			{
+				"cmd"				"mp_autoteambalance 0; mp_limitteams 0; @1"
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"type" 				"list"
+				"title"				"Which team does the BOT join?"
+				"1"					"bot_add"
+				"1."				"Team with less users"
+				"2"					"bot_add_t"
+				"2."				"Terrorist"
+				"3"					"bot_add_ct"
+				"3."				"Counter Terrorist"
+				"4"					"bot_kick"
+				"4."				"Bot Kick"
+				}
+			}
+			"Remove Player"
+			{
+				"cmd"				"@1 #2"
+				"admin"				"sm_ban"
+				"execute"			"player"
+				"1"
+				{
+				"type" 				"list"
+				"title"				"Should the player banned or kicked?"
+				"1"					"sm_ban"
+				"1."				"Ban"
+				"2"					"rcon kick"
+				"2."				"Kick"
+				}
+				"2"
+				{
+				"type" 		"groupplayer"
+				"method"	"name"
+				"title"		"Which player should be removed?"
+				}
 			}
 	}
 }
