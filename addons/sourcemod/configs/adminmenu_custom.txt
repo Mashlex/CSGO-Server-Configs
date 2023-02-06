@@ -462,7 +462,7 @@
 				{
 				"type" 				"list"
 				"title"				"Set a Password for the Server"
-				"1"					"sv_password; say Password is resets"
+				"1"					"sv_password; say the password has been reset"
 				"1."				"Reset Password"
 				"2"					"sm_newpassword"
 				"2."				"Generate Random Password"
@@ -482,15 +482,57 @@
 			}
 			"Mapvote"
 			{
-				"cmd"		"sm_votemap @1"
+				"cmd"		"sm_votemap #1 #2 #3 #4 #5 #6 #7"
 				"admin"		"sm_votemap"
 				"execute"	"server"
 				"1"
 				{
-				"title"		"Which Map do you want to play?"
+				"title"		"1/7 Map:"
 				"type"		"mapcycle"
 				"path"		"maplist.txt"
 				}
+				"2"
+				{
+				"title"		"2/7 Map:"
+				"type"		"mapcycle"
+				"path"		"maplist.txt"
+				}
+				"3"
+				{
+				"title"		"3/7 Map:"
+				"type"		"mapcycle"
+				"path"		"maplist.txt"
+				}				
+				"4"
+				{
+				"title"		"4/7 Map:"
+				"type"		"mapcycle"
+				"path"		"maplist.txt"
+				}
+				"5"			
+				{
+				"title"		"5/7 Map:"
+				"type"		"mapcycle"
+				"path"		"maplist.txt"
+				}					
+				"6"			
+				{
+				"title"		"6/7 Map:"
+				"type"		"mapcycle"
+				"path"		"maplist.txt"
+				}					
+				"7"			
+				{
+				"title"		"7/7 Map:"
+				"type"		"mapcycle"
+				"path"		"maplist.txt"
+				}
+			}
+			"Restartgame"
+			{
+				"cmd"				"mp_restartgame 3"
+				"admin"				"sm_ban"
+				"execute"			"server"
 			}
 			"Bot Quota"
 			{
@@ -548,26 +590,48 @@
 				"4."				"Bot Kick"
 				}
 			}
-			"Remove Player"
+			"Kick Player"
 			{
-				"cmd"				"@1 #2"
+				"cmd"				"kick #1; say @1 Kicked!"
 				"admin"				"sm_ban"
-				"execute"			"player"
+				"execute"			"server"
 				"1"
 				{
-				"type" 				"list"
-				"title"				"Should the player banned or kicked?"
-				"1"					"sm_ban"
-				"1."				"Ban"
-				"2"					"rcon kick"
-				"2."				"Kick"
+				"type" 		"player"
+				"method"	"name"
+				"title"		"Which player should be kicked?"
+				}
+			}
+			"Ban Player"
+			{
+				"cmd"				"banid @2 @1; sm_futex 0.05 \"kickid @1\"; say BANNED"
+				"admin"				"sm_ban"
+				"execute"			"server"
+				"1"
+				{
+				"type" 		"player"
+				"method"	"steamid"
+				"title"		"Which player should be banned?"
 				}
 				"2"
 				{
-				"type" 		"groupplayer"
-				"method"	"name"
-				"title"		"Which player should be removed?"
+				"type" 				"list"
+				"title"				"How long should the player be banned?"
+				"1"					"0"
+				"1."				"permanent"
+				"2"					"1"
+				"2."				"1 minute"
+				"3"					"10"
+				"3."				"10 minute"
+				"4"					"120"
+				"4."				"120 minute"
 				}
+			}
+			"Reload Admins"
+			{
+				"cmd"				"sm_reloadadmins; say reload Admins!"
+				"admin"				"sm_ban"
+				"execute"			"server"
 			}
 	}
 }

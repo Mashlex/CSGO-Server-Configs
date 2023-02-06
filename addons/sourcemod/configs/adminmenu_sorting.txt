@@ -44,9 +44,12 @@
 		"item"		"Server Password"
 		"item"		"Changelevel"
 		"item"		"Mapvote"
+		"item"		"Restartgame"
 		"item"		"Bot Quota"
 		"item"		"Bot Add"
-		"item"		"Remove Player"
+		"item"		"Kick Player"
+		"item"		"Ban Player"
+		"item"		"Reload Admins"
 	}
 }
 
