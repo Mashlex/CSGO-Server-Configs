@@ -45,20 +45,18 @@ These plugins improve or enable different game modes. If you need help using the
 
 Some plug-ins have been omitted, such as Deathmatch or Arms Race, which only ask for a little added value. This means that you are not dependent on other plug-ins.
 
-## Custom Commands
+## Custom Server Coammnds
 | Command | Description |
 |----------|----------|
-| Bot Count | Behind this is the command "bot_quota", which changes the number of possible bots. | 
-| Bot Kick | Kick the Bot from the Server. |  
-| Bot Add | If the Bots cant join automaticly, then you can add bots. | 
-| Bot Add T | If the Bots cant join automaticly, then you can add bots to T Side. | 
-| Bot Add CT | If the Bots cant join automaticly, then you can add bots to CT Side. | 
-| Generated Password | Generate a random server password and write it in the chat. | 
-| Remove Password | This remove the password, to change the server to a public server again. | 
+| Server Password | Generate a random server password and write it in the chat. Or reset the password. When the server is empty, also the server remove the password. | 
+| Changelevel | A manual possibility to switch to any map. |
+| Mapvote | A possibility to start a poll for the next map. 7 maps can be choose. |
+| Restartgame | Restart the game after 3 seconds |
+| Bot Quota | Behind this is the command "bot_quota", which changes the number of possible bots. The most modes have _bot_quota_mode fill_ | 
+| Bot Add | If the Bots cant join automaticly, then you can add bots. You also can choose the side or kick the bots. | 
 | Kick Player | The "Kick Player" function in CSGO allows an administrator to remove a player from the current game. |
 | Ban Player | The "Ban Player" function in CSGO allows an administrator to prevent a player from joining the server again. It can be used for rule breaking or disruptive behavior. |
-| Map Change | The "Map Change" function in CSGO allows to switch to a different map during the game.|
-| Map Vote | The "Map Vote" function in CSGO allows players to vote for the next map through a plugin. |
+| Reload Admins | When you have added admins via the simple_admin.ini file, you can update the list ingame. |
 
 ## Configs 
 ### Server Config
