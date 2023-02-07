@@ -1,4 +1,0 @@
-endmatch_votenextmap 
-mapcycledisabled 
-mapgroup 
-mp_endmatch_votenextmap 
