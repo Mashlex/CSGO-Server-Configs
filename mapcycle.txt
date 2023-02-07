@@ -76,7 +76,6 @@ aim_redline
 aim_dust2
 aim_s
 aim_goofyaim
-lobby_mapveto
 
 // Arena Maps
 aim_multi_v4
