@@ -384,15 +384,9 @@
 
 	"Competitive Modes"
 	{
-			"Aim 1on1"
-			{
-				"cmd"				"sm_execcfg /gamesettings/competitive/aim_1on1.cfg"
-				"admin"				"sm_ban"
-				"execute"			"server"
-			}
 			"Arena 1on1"
 			{
-				"cmd"				"sm_execcfg /gamesettings/competitive/arena_1on1.cfg"
+				"cmd"				"sm_execcfg /gamesettings/competitive/arena_1on1.cfg; sm_futex 0.05 \"changelevel @1\";sm_futex 0.33 \"sm_execcfg /gamesettings/competitive/arena_1on1.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
@@ -401,6 +395,12 @@
 				"type"		"mapcycle"
 				"path"		"/cfg/mappools/arena_maps.ini"
 				}
+			}
+			"Aim 1on1"
+			{
+				"cmd"				"sm_execcfg /gamesettings/competitive/aim_1on1.cfg"
+				"admin"				"sm_ban"
+				"execute"			"server"
 			}
 			"Wingman 2on2"
 			{
@@ -462,9 +462,9 @@
 				{
 				"type" 				"list"
 				"title"				"Set a Password for the Server"
-				"1"					"sv_password; say the password has been reset"
+				"1"					"sv_password "none"; say the password has been reset"
 				"1."				"Reset Password"
-				"2"					"sm_newpassword"
+				"2"					"sm_newpassword; say This Password will be removed, when the server is empty!"
 				"2."				"Generate Random Password"
 				}
 			}
