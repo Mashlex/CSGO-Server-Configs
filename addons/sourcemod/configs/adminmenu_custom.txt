@@ -252,7 +252,7 @@
 			}
 			"Aimmaps"
 			{
-				"cmd"				"sm_execcfg /gamesettings/training/aimmaps_@1.cfg;sm_futex 0.05 \"changelevel @2\";sm_futex 0.29 \"mp_roundtime @3\"; sm_futex 0.29 \"bot_quota @4\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/aimmaps_@1.cfg\""
+				"cmd"				"sm_execcfg /gamesettings/training/aimmaps_@1.cfg;sm_futex 0.05 \"changelevel @2\";sm_futex 0.29 \"mp_roundtime @3\";sm_futex 0.29 \"mp_timelimit @3\"; sm_futex 0.29 \"bot_quota @4\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/aimmaps_@1.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
@@ -307,7 +307,7 @@
 			}
 			"Death Match"
 			{
-				"cmd"				"sm_execcfg /gamesettings/training/@1_@2.cfg;sm_futex 0.05 \"changelevel @3\";sm_futex 0.29 \"mp_roundtime @4\"; sm_futex 0.29 \"bot_quota @5\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/@1_@2.cfg\""
+				"cmd"				"sm_execcfg /gamesettings/training/@1_@2.cfg;sm_futex 0.05 \"changelevel @3\";sm_futex 0.29 \"mp_roundtime @4\";sm_futex 0.29 \"mp_timelimit @4\"; sm_futex 0.29 \"bot_quota @5\";sm_futex 0.33 \"sm_execcfg /gamesettings/training/@1_@2.cfg\""
 				"admin"				"sm_ban"
 				"execute"			"server"
 				"1"
