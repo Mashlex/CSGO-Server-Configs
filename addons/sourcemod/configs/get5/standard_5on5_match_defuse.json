@@ -7,6 +7,7 @@
 	"skip_veto": false,
 	"veto_first": "team1",
 	"side_type": "always_knife",
+	"wingman": false,
 
 	"maplist":
 	[
