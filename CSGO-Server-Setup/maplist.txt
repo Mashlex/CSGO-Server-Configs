@@ -1,0 +1,116 @@
+// Duty Maps
+de_ancient
+de_inferno
+de_mirage
+de_nuke
+de_overpass
+de_anubis
+de_vertigo
+
+// Additional Maps
+de_cache
+de_train
+de_tuscan
+de_cbble
+de_dust2
+de_aztec
+de_abbey
+de_canals
+de_zoo
+de_basalt
+de_season
+de_overgrown
+
+// Hostage Maps
+cs_agency
+cs_assault
+cs_italy
+cs_militia
+cs_office
+
+// Arms Race Maps
+ar_baggage
+ar_dizzy
+ar_lunacy
+ar_monastery
+ar_shoots
+ar_chess
+de_stmarc
+fy_pool_day
+
+// Danger Zone Maps
+dz_blacksite
+dz_ember
+dz_sirocco
+dz_vineyard
+
+// Guardian Maps
+cs_assault
+de_bank
+de_canals
+de_cbble
+de_dust2
+de_lake
+de_mirage
+cs_office
+de_nuke
+de_train
+de_vertigo
+de_overpass
+de_cache
+gd_cbble
+
+// Retake Maps
+de_ancient
+de_dust2
+de_inferno
+de_mirage
+de_nuke
+de_overpass
+de_train
+de_vertigo
+
+// Aim Maps
+aim_aim_aim
+aim_redline
+aim_dust2
+aim_s
+aim_goofyaim
+
+// Arena Maps
+aim_multi_v4
+am_aztec2
+am_grass2
+am_must2
+am_crashz_dust_v2
+am_skybound
+am_multimap
+am_mountain_village
+
+// Demolition Maps
+de_sugarcane
+de_stmarc
+de_shortdust
+de_safehouse
+de_lake
+de_bank
+
+// Wingman Maps 
+de_cbble
+de_inferno
+de_lake
+de_overpass
+de_shortdust
+de_shortnuke
+de_train
+de_vertigo
+de_bank
+de_safehouse
+de_stmarc
+
+// Flying Scoutsman Maps
+de_lake
+de_safehouse
+ar_dizzy
+ar_lunacy
+ar_shoots

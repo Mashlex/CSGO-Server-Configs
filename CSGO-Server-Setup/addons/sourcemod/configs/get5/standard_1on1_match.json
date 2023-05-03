@@ -1,0 +1,45 @@
+{
+	"matchid": "Privat 1on1 Match",
+	"num_maps": 1,
+	"players_per_team": 1,
+	"min_players_to_ready": 1,
+	"min_spectators_to_ready": 0,
+	"skip_veto": false,
+	"veto_first": "team1",
+	"side_type": "never_knife",
+	"wingman": false,
+
+	"maplist":
+	[
+		"aim_aim_aim",
+		"aim_dust2",
+		"aim_redline",
+		"aim_s",
+		"aim_goofyaim"
+	],
+
+	"team1": {
+		"name": "One Team",
+		"players":
+		{
+			"STEAM_1:1:....." : ""
+		}
+	},
+
+	"team2": {
+		"name": "Other Team",
+		"players":
+		{
+			"STEAM_1:1:....." : ""
+		}
+	},
+
+	"cvars": {
+		"hostname": 						"Privat 1on1 Match",
+		"sm_practicemode_can_be_started": 	"0",
+		"mp_maxrounds":						"16",
+		"mp_overtime_enable":				"1",
+		"get5_live_countdown_time":  		"5",
+		"mp_friendly_fire": 				"0"
+	}
+}
