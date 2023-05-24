@@ -402,30 +402,11 @@
 				"admin"				"sm_ban"
 				"execute"			"server"
 			}
-			"Wingman 2on2"
+			"Match XonX"
 			{
-				"cmd"				"sm_execcfg /gamesettings/competitive/wingman_2on2.cfg"
+				"cmd"				"sm_execcfg /gamesettings/competitive/match_xonx_standard.cfg"
 				"admin"				"sm_ban"
 				"execute"			"server"
-			}
-			"Match 5on5"
-			{
-				"cmd"				"sm_execcfg /gamesettings/competitive/match_5on5_@1.cfg"
-				"admin"				"sm_ban"
-				"execute"			"server"
-				"1"
-				{
-				"type" 				"list"
-				"title"				"Which Mappool do you want?"
-				"1"					"duty"
-				"1."				"Duty Maps"
-				"2"					"defuse"
-				"2."				"Collection of Defuse Maps"
-				"3"					"hostage"
-				"3."				"Hostage Maps"
-				"4"					"standard"
-				"4."				"No Map Vote"
-				}
 			}
 	}
 

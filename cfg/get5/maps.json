@@ -1,5 +1,5 @@
 {
-  "duty": [
+  "Duty": [
     "de_ancient",
     "de_anubis",
     "de_inferno",
@@ -8,7 +8,7 @@
     "de_overpass",
     "de_vertigo"
   ],
-  "additional": [
+  "Additional": [
     "de_ancient",
     "de_anubis",
     "de_cache",
@@ -29,14 +29,14 @@
     "de_season",
     "de_overgrown"
   ],
-  "hostage": [
+  "Hostage": [
     "cs_agency",
     "cs_assault",
     "cs_italy",
     "cs_militia",
     "cs_office"
   ],
-  "wingman": [
+  "Wingman": [
     "de_shortdust",
     "de_boyard",
     "de_chalice",
