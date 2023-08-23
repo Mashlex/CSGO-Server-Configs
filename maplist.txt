@@ -1,50 +1,56 @@
-// Duty Maps
+// Duty Maps (Valve)
 de_ancient
+de_anubis
 de_inferno
 de_mirage
 de_nuke
 de_overpass
-de_anubis
 de_vertigo
 
+
 // Additional Maps
-de_cache
-de_train
 de_tuscan
-de_cbble
 de_dust2
-de_aztec
-de_abbey
+de_train
+de_cache
 de_canals
-de_zoo
-de_basalt
 de_season
 de_overgrown
+de_aztec
+de_abbey
+de_zoo
+de_basalt
 
-// Hostage Maps
+
+// Hostage Maps (Valve)
 cs_agency
 cs_assault
 cs_italy
 cs_militia
 cs_office
 
-// Arms Race Maps
+
+// Arms Race Maps (Valve)
 ar_baggage
 ar_dizzy
 ar_lunacy
 ar_monastery
 ar_shoots
-ar_chess
+de_lake
+de_safehouse
 de_stmarc
 fy_pool_day
+ar_chess
 
-// Danger Zone Maps
+
+// Danger Zone Maps (Valve)
 dz_blacksite
 dz_ember
 dz_sirocco
 dz_vineyard
 
-// Guardian Maps
+
+// Guardian Maps (Valve)
 cs_assault
 de_bank
 de_canals
@@ -60,7 +66,8 @@ de_overpass
 de_cache
 gd_cbble
 
-// Retake Maps
+
+// Retake Maps (Valve)
 de_ancient
 de_dust2
 de_inferno
@@ -70,12 +77,15 @@ de_overpass
 de_train
 de_vertigo
 
+
 // Aim Maps
-aim_aim_aim
-aim_redline
-aim_dust2
+fy_pool_day
 aim_s
 aim_goofyaim
+aim_redline
+aim_aim_aim
+aim_dust2
+
 
 // Arena Maps
 aim_multi_v4
@@ -87,7 +97,8 @@ am_skybound
 am_multimap
 am_mountain_village
 
-// Demolition Maps
+
+// Demolition Maps (Valve)
 de_sugarcane
 de_stmarc
 de_shortdust
@@ -95,8 +106,11 @@ de_safehouse
 de_lake
 de_bank
 
-// Wingman Maps 
+
+// Wingman Maps (Valve)
+de_boyard
 de_cbble
+de_chalice
 de_inferno
 de_lake
 de_overpass
@@ -104,13 +118,13 @@ de_shortdust
 de_shortnuke
 de_train
 de_vertigo
-de_bank
-de_safehouse
-de_stmarc
 
-// Flying Scoutsman Maps
+
+// Flying Scoutsman Maps (Valve)
 de_lake
 de_safehouse
 ar_dizzy
 ar_lunacy
 ar_shoots
+
+manually_mapcange
